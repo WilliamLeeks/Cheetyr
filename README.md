@@ -8,7 +8,7 @@ This will likely be a work in progress for some time, so any input would be grea
 
 Feedback on new, useful shortcuts to add; areas which could be improved; or even recommendations for whole new cheat sheets are all welcome.
 
-Get in touch: (williamleeks.com/contact.php)
+Get in touch: (http://williamleeks.com/contact.php)
 
 ## Copyright / License
 
