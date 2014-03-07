@@ -13,6 +13,11 @@
 <script src="js/html5shiv.js"></script>
 
 <link rel="stylesheet" href="css/style.css">
+<!-- Prefix-free CSS -->
+<script src="js/prefixfree.min.js"></script>
+
+<!-- Google Web Font -->
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
 
 </head>
 <body>

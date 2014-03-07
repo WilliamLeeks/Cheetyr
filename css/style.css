@@ -1,1 +1,80 @@
-@charset "UTF-8";@import url(normalize/normalize.css);@import url(reset/reset.css);body{background:#eee}::-moz-selection{background:#507aa5;color:#fff;text-shadow:none}::selection{background:#507aa5;color:#fff;text-shadow:none}.cf:before,.cf:after{content:"";display:table}.cf:after{clear:both}.cf{*zoom:1}
+@charset "UTF-8";
+@import url(normalize/normalize.css);
+@import url(reset/reset.css);
+/*** VARIABLES
+--------------------------------------------*/
+/*** MIXINS
+--------------------------------------------*/
+/*** LAYOUT
+--------------------------------------------*/
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialised; }
+
+body {
+  background: #eee;
+  color: #444;
+  font-family: 'Lato', sans-serif; }
+
+header {
+  background: #e8b51c;
+  width: 100%;
+  padding: 15px;
+  height: 50px; }
+
+nav {
+  background: #ddd;
+  width: 300px;
+  position: absolute;
+  top: 50px;
+  bottom: 0; }
+
+nav a {
+  display: block;
+  padding: 5%; }
+
+.page-content {
+  position: absolute;
+  left: 300px;
+  top: 50px;
+  padding: 2% 5%; }
+
+/*** TEXT & TYPOGRAPHY
+--------------------------------------------*/
+/*** SHARED
+--------------------------------------------*/
+/*** OBJECTS
+--------------------------------------------*/
+/*** IMAGES
+--------------------------------------------*/
+/*** LINKS
+--------------------------------------------*/
+/*** TABLES
+--------------------------------------------*/
+/*** FORMS
+--------------------------------------------*/
+/*** SELECTION HIGHLIGHTS
+--------------------------------------------*/
+::-moz-selection {
+  background: #507aa5;
+  color: #fff;
+  text-shadow: none; }
+
+::selection {
+  background: #507aa5;
+  color: #fff;
+  text-shadow: none; }
+
+/*** HELPER CLASSES
+--------------------------------------------*/
+/*** CLEARFIX
+--------------------------------------------*/
+.cf:before, .cf:after {
+  content: "";
+  display: table; }
+
+.cf:after {
+  clear: both; }
+
+.cf {
+  *zoom: 1; }

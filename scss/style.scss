@@ -4,6 +4,7 @@
 
 /*** VARIABLES
 --------------------------------------------*/
+$yellow: #E8B51C;
 
 /*** MIXINS
 --------------------------------------------*/
@@ -11,8 +12,37 @@
 /*** LAYOUT
 --------------------------------------------*/
 
+* {
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialised;
+}
 body {
 	background: #eee;
+	color: #444;
+	font-family: 'Lato', sans-serif;
+}
+header {
+	background: $yellow;
+	width: 100%;
+	padding: 15px;
+	height: 50px;
+}
+nav {
+	background: #ddd;
+	width: 300px;
+	position: absolute;
+	top: 50px;
+	bottom: 0
+}
+	nav a {
+		display: block;
+		padding: 5%;
+	}
+.page-content {
+	position: absolute;
+	left: 300px;
+	top: 50px;
+	padding: 2% 5%;
 }
 
 /*** TEXT & TYPOGRAPHY
