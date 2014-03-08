@@ -1,6 +1,6 @@
 <?php include 'header.php'; ?>
-	<section class="page-content">
+	<main>
 		<h1>Welcome to Cheetyr</h1>
 		<p>A handy collection of cheatsheets for designers and developers.</p>
-	</section>
+	</main>
 <?php include 'footer.php'; ?>

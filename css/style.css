@@ -12,35 +12,47 @@
   -webkit-font-smoothing: antialised; }
 
 body {
-  background: #eee;
+  background: white;
   color: #444;
-  font-family: 'Lato', sans-serif; }
+  font: 62.5%/1.5 'Lato', sans-serif; }
 
-header {
-  background: #e8b51c;
-  width: 100%;
-  padding: 15px;
-  height: 50px; }
-
-nav {
-  background: #ddd;
+.sidebar {
   width: 300px;
-  position: absolute;
-  top: 50px;
-  bottom: 0; }
+  position: fixed;
+  top: 100px;
+  left: 0;
+  padding: 0 20px 0 50px; }
+  .sidebar header {
+    font-size: 1.6em; }
+  .sidebar nav {
+    font-size: 1.6em; }
+  .sidebar nav a {
+    display: block; }
+  .sidebar footer {
+    font-size: 1.2em; }
 
-nav a {
-  display: block;
-  padding: 5%; }
-
-.page-content {
+main {
   position: absolute;
   left: 300px;
-  top: 50px;
-  padding: 2% 5%; }
+  top: 20px;
+  padding: 3% 5%;
+  font-size: 1.6em;
+  border: 10px solid #e8b51c;
+  max-width: 700px; }
 
 /*** TEXT & TYPOGRAPHY
 --------------------------------------------*/
+dt,
+dd {
+  float: left;
+  border-bottom: 1px solid #eee; }
+
+dt {
+  width: 25%; }
+
+dd {
+  width: 75%; }
+
 /*** SHARED
 --------------------------------------------*/
 /*** OBJECTS

@@ -21,13 +21,18 @@
 
 </head>
 <body>
-	<header>
-		<a href="index.php" class="brand">Cheetyr</a>
-	</header>
-	<nav>
-		<ul>
-			<li>
-				<a href="photoshop.php">Photoshop</a>
-			</li>
-		</ul>
-	</nav>
+	<aside class="sidebar">
+		<header>
+			<a href="index.php" class="brand">Cheetyr</a>
+		</header>
+		<nav>
+			<ul>
+				<li>
+					<a href="photoshop.php">Photoshop</a>
+				</li>
+			</ul>
+		</nav>
+		<footer>
+			Made by William Leeks
+		</footer>
+	</aside>
