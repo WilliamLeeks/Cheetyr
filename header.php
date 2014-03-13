@@ -16,8 +16,9 @@
 <!-- Prefix-free CSS -->
 <script src="js/prefixfree.min.js"></script>
 
-<!-- Google Web Font -->
-<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
+<!-- TypeKit -->
+<script type="text/javascript" src="//use.typekit.net/llu6zkn.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
 </head>
 <body>

@@ -13,8 +13,8 @@
 
 body {
   background: white;
-  color: #444;
-  font: 62.5%/1.5 'Lato', sans-serif; }
+  color: #555;
+  font: 62.5%/1.5 sans-serif; }
 
 .sidebar {
   width: 300px;
@@ -35,23 +35,30 @@ main {
   position: absolute;
   left: 300px;
   top: 20px;
-  padding: 3% 5%;
+  padding: 30px 50px;
   font-size: 1.6em;
-  border: 10px solid #e8b51c;
-  max-width: 700px; }
+  width: 700px; }
+  main.photoshop {
+    border: 10px solid #71b7e3; }
 
 /*** TEXT & TYPOGRAPHY
 --------------------------------------------*/
+dl {
+  margin-bottom: 2em; }
+
 dt,
 dd {
   float: left;
   border-bottom: 1px solid #eee; }
 
 dt {
-  width: 25%; }
+  width: 250px; }
 
 dd {
-  width: 75%; }
+  width: 330px; }
+
+.light-text {
+  color: #999; }
 
 /*** SHARED
 --------------------------------------------*/
@@ -81,12 +88,12 @@ dd {
 --------------------------------------------*/
 /*** CLEARFIX
 --------------------------------------------*/
-.cf:before, .cf:after {
+.cf:before, .cf:after, dl:before, dl:after {
   content: "";
   display: table; }
 
-.cf:after {
+.cf:after, dl:after {
   clear: both; }
 
-.cf {
+.cf, dl {
   *zoom: 1; }
