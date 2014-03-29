@@ -5,7 +5,6 @@
 /*** VARIABLES
 --------------------------------------------*/
 $yellow: #E8B51C;
-$photoshopBlue: #71b7e3;
 
 /*** MIXINS
 --------------------------------------------*/
@@ -49,10 +48,7 @@ main {
 	padding: 30px 50px;
 	font-size: 1.6em;
 	width: 700px;
-
-	&.photoshop {
-		border: 10px solid $photoshopBlue;
-	}
+	border: 10px solid $yellow;
 }
 
 /*** TEXT & TYPOGRAPHY

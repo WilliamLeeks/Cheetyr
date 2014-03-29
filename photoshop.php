@@ -1,5 +1,5 @@
 <?php include 'header.php'; ?>
-	<main class="photoshop">
+	<main>
 		<h1>Photoshop</h1>
 		<h2>Tools</h2>
 		<dl>
@@ -17,6 +17,10 @@
 			<dd>Crop Tool</dd>
 			<dt>B</dt>
 			<dd>Brush Tool</dd>
+			<dt>[</dt>
+			<dd>Decrease Brush Size</dd>
+			<dt>]</dt>
+			<dd>Increase Brush Size</dd>
 			<dt>J</dt>
 			<dd>Spot Healing Brush Tool</dd>
 			<dt>Y</dt>
@@ -43,10 +47,17 @@
 			<dd>Hand Tool</dd>
 			<dt>R</dt>
 			<dd>Rotate Tool</dd>
+			<dt>Q</dt>
+			<dd>Quick Mask</dd>
+			<dt>\</dt>
+			<dd>Toggle Layer Mask</dd>
+			<dt>D</dt>
+			<dd>Default Colours</dd>
+			<dt></dt>
 			<dt>&#8679; + <em>[Tool]</em></dt>
 			<dd>Switch between tool in groups</dd>
 		</dl>
-		<h2>Change View</h2>
+		<h2>Changing View</h2>
 		<dl>
 			<dt>Z</dt>
 			<dd>Zoom Tool</dd>
@@ -66,6 +77,12 @@
 			<dd>Jump/Zoom to part of image</dd>
 			<dt>&#8984; <span class="light-text">+</span> ~</dt>
 			<dd>Switch open tabs</dd>
+			<dt>&#8984; <span class="light-text">+</span> R</dt>
+			<dd>Show/Hide Rulers</dd>
+			<dt>&#8984; <span class="light-text">+</span> ;</dt>
+			<dd>Show/Hide Guides</dd>
+			<dt>&#8984; <span class="light-text">+</span> '</dt>
+			<dd>Show/Hide Grid</dd>
 		</dl>
 		<h2>Selecting</h2>
 		<dl>
@@ -93,6 +110,58 @@
 			<dd>Feather selection</dd>
 			<dt>Hold Space</dt>
 			<dd>Move marquee while drawing selection</dd>
+		</dl>
+		<h2>Opacity</h2>
+		<dl>
+			<dt>1</dt>
+			<dd>10% Opacity</dd>
+			<dt>2</dt>
+			<dd>20% Opacity</dd>
+			<dt>3</dt>
+			<dd>30% Opacity</dd>
+			<dt>4</dt>
+			<dd>40% Opacity</dd>
+			<dt>5</dt>
+			<dd>50% Opacity</dd>
+			<dt>6</dt>
+			<dd>60% Opacity</dd>
+			<dt>7</dt>
+			<dd>70% Opacity</dd>
+			<dt>8</dt>
+			<dd>80% Opacity</dd>
+			<dt>9</dt>
+			<dd>90% Opacity</dd>
+			<dt>0</dt>
+			<dd>100% Opacity</dd>
+		</dl>
+		<h2>General</h2>
+		<dl>
+			<dt>&#8984; <span class="light-text">+</span> N</dt>
+			<dd>New File</dd>
+			<dt>&#8984; <span class="light-text">+</span> S</dt>
+			<dd>Save</dd>
+			<dt>&#8984; <span class="light-text">+</span> &#8679; <span class="light-text">+</span> S</dt>
+			<dd>Save As</dd>
+			<dt>&#8984; <span class="light-text">+</span> &#8679; <span class="light-text">+</span> &#8997; <span class="light-text">+</span> S</dt>
+			<dd>Save for Web &amp; Devices</dd>
+			<dt>&#8984; <span class="light-text">+</span> O</dt>
+			<dd>Open</dd>
+			<dt>&#8984; <span class="light-text">+</span> Q</dt>
+			<dd>Quit</dd>
+			<dt>&#8984; <span class="light-text">+</span> W</dt>
+			<dd>Close</dd>
+			<dt>&#8984; <span class="light-text">+</span> P</dt>
+			<dd>Print</dd>
+			<dt>&#8984; <span class="light-text">+</span> Z</dt>
+			<dd>Undo/Redo</dd>
+			<dt>&#8984; <span class="light-text">+</span> X</dt>
+			<dd>Cut</dd>
+			<dt>&#8984; <span class="light-text">+</span> C</dt>
+			<dd>Copy</dd>
+			<dt>&#8984; <span class="light-text">+</span> V</dt>
+			<dd>Paste</dd>
+			<dt>&#8984; <span class="light-text">+</span> K</dt>
+			<dd>Preferences</dd>
 		</dl>
 	</main>
 <?php include 'footer.php'; ?>

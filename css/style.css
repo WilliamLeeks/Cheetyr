@@ -37,9 +37,8 @@ main {
   top: 20px;
   padding: 30px 50px;
   font-size: 1.6em;
-  width: 700px; }
-  main.photoshop {
-    border: 10px solid #71b7e3; }
+  width: 700px;
+  border: 10px solid #e8b51c; }
 
 /*** TEXT & TYPOGRAPHY
 --------------------------------------------*/
