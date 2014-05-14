@@ -53,7 +53,6 @@
 			<dd>Toggle Layer Mask</dd>
 			<dt>D</dt>
 			<dd>Default Colours</dd>
-			<dt></dt>
 			<dt>&#8679; + <em>[Tool]</em></dt>
 			<dd>Switch between tool in groups</dd>
 		</dl>

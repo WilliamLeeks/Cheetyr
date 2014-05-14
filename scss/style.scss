@@ -53,6 +53,17 @@ main {
 
 /*** TEXT & TYPOGRAPHY
 --------------------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-weight: bold;
+	color: #333;
+}
+h2 {
+	margin: 0 0 0.2em 0;
+}
 dl {
 	margin-bottom: 2em;
 }
@@ -62,10 +73,10 @@ dd {
 	border-bottom: 1px solid #eee;
 }
 dt {
-	width: 250px;
+	width: 45%;
 }
 dd {
-	width: 330px;
+	width: 55%;
 }
 .light-text {
 	color: #999;
@@ -92,8 +103,8 @@ dd {
 /*** SELECTION HIGHLIGHTS
 --------------------------------------------*/
 
-::-moz-selection { background: #507aa5; color: #fff; text-shadow: none; }
-::selection { background: #507aa5; color: #fff; text-shadow: none; }
+::-moz-selection { background: #eee; color: #666; text-shadow: none; }
+::selection { background: #eee; color: #666; text-shadow: none; }
 
 /*** HELPER CLASSES
 --------------------------------------------*/
