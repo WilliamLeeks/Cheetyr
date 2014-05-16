@@ -41,8 +41,6 @@
 			<dd>Rectangle Tool</dd>
 			<dt>A</dt>
 			<dd>Direct Selection Tool</dd>
-			<dt>Z</dt>
-			<dd>Zoom Tool</dd>
 			<dt>H</dt>
 			<dd>Hand Tool</dd>
 			<dt>R</dt>
@@ -83,7 +81,7 @@
 			<dt>&#8984; <span class="light-text">+</span> '</dt>
 			<dd>Show/Hide Grid</dd>
 		</dl>
-		<h2>Selecting</h2>
+		<h2>Selecting &amp; Moving</h2>
 		<dl>
 			<dt>&#8679; <span class="light-text">+</span> Marquee</dt>
 			<dd>Draw Marquee from centre</dd>

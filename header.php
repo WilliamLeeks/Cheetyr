@@ -22,18 +22,26 @@
 
 </head>
 <body>
+	<header>
+		<a href="index.php">
+			<img src="img/cheetyr-logo.svg" class="brand">
+		</a>
+		<button class="js--nav-toggle">
+			<img src="img/nav-toggle.svg">
+		</button>
+	</header>
 	<aside class="sidebar">
-		<header>
-			<a href="index.php" class="brand">Cheetyr</a>
-		</header>
-		<nav>
-			<ul>
-				<li>
-					<a href="photoshop.php">Photoshop</a>
+		<nav class="site-nav">
+			<ul class="site-nav_list">
+				<li class="site-nav_list-item">
+					<a href="photoshop.php" class="site-nav_link">Photoshop</a>
+				</li>
+				<li class="site-nav_list-item">
+					<a href="illustrator.php" class="site-nav_link">Illustrator</a>
 				</li>
 			</ul>
 		</nav>
 		<footer>
-			Made by William Leeks
+			Made by <a href="http://williamleeks.com">William Leeks</a>
 		</footer>
 	</aside>
