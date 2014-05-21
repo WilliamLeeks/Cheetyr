@@ -171,3 +171,16 @@ a {
     background: #eee;
     padding: 20px;
     display: none; } }
+@media only screen and (max-width: 700px) {
+  dt,
+  dd {
+    float: none; }
+
+  dt {
+    font-weight: bold;
+    width: 100%;
+    border-bottom: none; }
+
+  dd {
+    width: 100%;
+    margin: 0 0 0.8em 0; } }
