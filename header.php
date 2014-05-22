@@ -24,7 +24,7 @@
 <body>
 	<header>
 		<a href="index.php">
-			<img src="img/cheetyr-logo.svg" class="brand">
+			<img src="img/cheetyr-logo.svg" class="brand" alt="Cheetyr logo">
 		</a>
 		<button class="js--nav-toggle">
 			<img src="img/nav-toggle.svg">
@@ -43,5 +43,6 @@
 		</nav>
 		<footer>
 			Made by <a href="http://williamleeks.com">William Leeks</a>
+			<img src="img/william-leeks-logo.svg" alt="William Leeks logo" class="wl-brand">
 		</footer>
 	</aside>

@@ -61,6 +61,9 @@ h5 {
 	font-weight: bold;
 	color: #333;
 }
+h1 {
+	margin: 0 0 0.5em 0;
+}
 h2 {
 	margin: 0 0 0.2em 0;
 }
@@ -115,12 +118,21 @@ dd {
 /*** IMAGES
 --------------------------------------------*/
 
+.wl-brand {
+	display: block;
+	width: 20px;
+	margin: 10px 0 0 0;
+}
+
 /*** LINKS
 --------------------------------------------*/
 
 a {
 	text-decoration: underline;
-	color: #E94E1B;
+	color: indianred;
+}
+footer a {
+	color: #666;
 }
 .brand {
 	width: 150px;
