@@ -22,7 +22,7 @@ body {
 	font: 62.5%/1.5 sans-serif;
 }
 header {
-	position: absolute;
+	position: fixed;
 	left: 50px;
 	top: 50px;
 }
@@ -174,7 +174,6 @@ main {
 	width: 95%;
 }
 header {
-	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
