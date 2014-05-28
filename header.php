@@ -39,6 +39,9 @@
 				<li class="site-nav_list-item">
 					<a href="illustrator.php" class="site-nav_link">Illustrator</a>
 				</li>
+				<li class="site-nav_list-item">
+					<a href="css-selectors.php" class="site-nav_link">CSS</a>
+				</li>
 			</ul>
 		</nav>
 		<footer>

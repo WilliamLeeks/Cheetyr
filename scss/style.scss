@@ -72,17 +72,18 @@ p {
 }
 dl {
 	margin-bottom: 2em;
+	border-bottom: 1px solid #eee;
 }
 dt,
 dd {
 	float: left;
-	border-bottom: 1px solid #eee;
+	border-top: 1px solid #eee;
 }
 dt {
-	width: 45%;
+	width: 40%;
 }
 dd {
-	width: 55%;
+	width: 60%;
 }
 .lede {
 	font-size: 1.2em;
@@ -207,12 +208,13 @@ dd {
 }
 dt {
 	font-weight: bold;
+	padding: 0.3em 0 0 0;
 	width: 100%;
-	border-bottom: none;
 }
 dd {
 	width: 100%;
-	margin: 0 0 0.8em 0;
+	margin: 0 0 0.3em 0;
+	border-top: none;
 }
 
 }
