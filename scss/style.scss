@@ -13,7 +13,6 @@ $yellow: #F9B233;
 --------------------------------------------*/
 
 /* Logo */
-
 @keyframes enter-up {
 	0% {
 		opacity: 0;
@@ -22,6 +21,72 @@ $yellow: #F9B233;
 	100% {
 		opacity: 1;
 		transform: translateX(0px);
+	}
+}
+
+/* Nav Toggle */
+@keyframes slide-down-rotate {
+	0% {
+		transform: translateY(0) rotate(0);
+		transform-origin: 50% 50%;
+	}
+	50% {
+		transform: translateY(10px) rotate(0);
+		transform-origin: 50% 50%;
+	}
+	100% {
+		transform: translateY(10px) rotate(45deg);
+		transform-origin: 50% 50%;
+	}
+}
+@keyframes slide-down-rotate-reverse {
+	0% {
+		transform: translateY(10px) rotate(45deg);
+		transform-origin: 50% 50%;
+	}
+	50% {
+		transform: translateY(10px) rotate(0);
+		transform-origin: 50% 50%;
+	}
+	100% {
+		transform: translateY(0px) rotate(0deg);
+		transform-origin: 50% 50%;
+	}
+}
+@keyframes slide-up-rotate {
+	0% {
+		transform: translateY(0) rotate(0);
+		transform-origin: 50% 50%;
+	}
+	50% {
+		tranform: translateY(-10px) rotate(0);
+		transform-origin: 50% 50%;
+	}
+	100% {
+		transform: translateY(-10px) rotate(-45deg);
+		transform-origin: 50% 50%;
+	}
+}
+@keyframes slide-up-rotate-reverse {
+	0% {
+		transform: translateY(-10px) rotate(-45deg);
+		transform-origin: 50% 50%;
+	}
+	50% {
+		transform: translateY(-10px) rotate(0);
+		transform-origin: 50% 50%;
+	}
+	100% {
+		transform: translateY(0) rotate(0);
+		transform-origin: 50% 50%;
+	}
+}
+@keyframes line-hide {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
 	}
 }
 
@@ -42,6 +107,44 @@ header {
 	left: 50px;
 	top: 50px;
 	animation: enter-up 0.4s;
+}
+.js--nav-toggle {
+	position: relative;
+	width: 30px;
+	height: 24px;
+}
+.nav-toggle-line {
+	width: 30px;
+	position: absolute;
+	left: 0;
+}
+.nav-toggle_top-line {
+	top: 0;
+}
+.nav-toggle_middle-line {
+	top: 10px;
+}
+.nav-toggle_bottom-line {
+	bottom: 0;
+}
+.js--nav-toggle--to-x {
+	.nav-toggle_top-line {
+		animation: slide-down-rotate 0.3s ease forwards;
+	}
+	.nav-toggle_bottom-line {
+		animation: slide-up-rotate 0.3s ease forwards;
+	}
+	.nav-toggle_middle-line {
+		animation: line-hide 0.3s ease forwards;
+	}
+}
+.js--nav-toggle--from-x {
+	.nav-toggle_top-line {
+		animation: slide-down-rotate-reverse 0.3s ease;
+	}
+	.nav-toggle_bottom-line {
+		animation: slide-up-rotate-reverse 0.3s ease;
+	}
 }
 .sidebar {
 	width: 200px;

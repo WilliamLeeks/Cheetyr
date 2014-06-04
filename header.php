@@ -27,7 +27,9 @@
 			<img src="img/cheetyr-logo.svg" class="brand" alt="Cheetyr logo">
 		</a>
 		<button class="js--nav-toggle">
-			<img src="img/nav-toggle.svg">
+			<img src="img/nav-toggle-line.png" class="nav-toggle-line nav-toggle_top-line" alt="Horizontal line">
+			<img src="img/nav-toggle-line.png" class="nav-toggle-line nav-toggle_middle-line" alt="Horizontal line">
+			<img src="img/nav-toggle-line.png" class="nav-toggle-line nav-toggle_bottom-line" alt="Horizontal line">
 		</button>
 	</header>
 	<aside class="sidebar">
