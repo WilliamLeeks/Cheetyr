@@ -301,6 +301,7 @@ header {
 	width: 100%;
 	padding: 15px 20px 10px;
 	background: white;
+	background: rgba(255, 255, 255, 0.9);
 }
 .brand {
 	width: 100px;
@@ -317,6 +318,9 @@ header {
 	background: #eee;
 	padding: 20px;
 	display: none;
+}
+.site-nav_link {
+	font-size: 120%;
 }
 
 }
