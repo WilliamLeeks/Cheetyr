@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="30px" height="24px" viewBox="0 0 30 24" enable-background="new 0 0 30 24" xml:space="preserve">
-<rect x="0.1" y="10.2" fill="#333333" width="29.8" height="3.5" class="nav-toggle_middle-line" />
-<g class="nav-toggle_top-line">
-<rect x="0.1" fill="#333333" width="29.8" height="3.5"  />
-</g>
-<rect x="0.1" y="20.5" fill="#333333" width="29.8" height="3.5" class="nav-toggle_bottom-line" />
-</svg>

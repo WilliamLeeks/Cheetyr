@@ -39,6 +39,12 @@
 		</dl>
 		<h2>Pseudo-classes</h2>
 		<dl>
+			<dt>a:link</dt>
+			<dd>Selects all unvisited links</dd>
+			<dt>a:visited</dt>
+			<dd>Selects all visited links</dd>
+			<dt>a:hover</dt>
+			<dd>Selects links on mouse hover</dd>
 			<dt>a:active</dt>
 			<dd>Selects the active link element</dd>
 			<dt>p::after</dt>
@@ -63,8 +69,6 @@
 			<dd>Selects every &lt;p&gt; element that is the first &lt;p&gt; element of its parent</dd>
 			<dt>input:focus</dt>
 			<dd>Selects the &lt;input&gt; element which has focus</dd>
-			<dt>a:hover</dt>
-			<dd>Selects links on mouse hover</dd>
 			<dt>input:in-range</dt>
 			<dd>Selects &lt;input&gt; elements with a value within a specified range</dd>
 			<dt>input:invalid</dt>
@@ -75,8 +79,6 @@
 			<dd>Selects every &lt;p&gt; element which is the last child of its parent</dd>
 			<dt>p:last-of-type</dt>
 			<dd>Selects every &lt;p&gt; element which is the last &lt;p&gt; element of its parent</dd>
-			<dt>a:link</dt>
-			<dd>Selects all unvisited links</dd>
 			<dt>:not(p)</dt>
 			<dd>Selects every element that is not a &lt;p&gt;</dd>
 			<dt>p:nth-child(2)</dt>
@@ -109,8 +111,6 @@
 			<dd>Selects the current active #id element</dd>
 			<dt>input:valid</dt>
 			<dd>Selects all &lt;input&gt; elements with a valid value</dd>
-			<dt>a:visited</dt>
-			<dd>Selects all visited links</dd>
 		</dl>
 	</main>
 <?php include 'footer.php'; ?>

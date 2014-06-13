@@ -47,7 +47,8 @@
 			</ul>
 		</nav>
 		<footer>
-			Made by <a href="http://williamleeks.com">William Leeks</a>
-			<img src="img/william-leeks-logo.svg" alt="William Leeks logo" class="wl-brand">
+			<p>Follow <a href="http://twitter.com/cheetyr">@cheetyr</a></p>
+			<p>Made by <a href="http://williamleeks.com">William Leeks</a>
+			<img src="img/william-leeks-logo.svg" alt="William Leeks logo" class="wl-brand"></p>
 		</footer>
 	</aside>
