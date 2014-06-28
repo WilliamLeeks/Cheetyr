@@ -44,6 +44,9 @@
 				<li class="site-nav_list-item">
 					<a href="css-selectors.php" class="site-nav_link">CSS</a>
 				</li>
+				<li class="site-nav_list-item">
+					<a href="git.php" class="site-nav_link">Git</a>
+				</li>
 			</ul>
 		</nav>
 		<footer>
