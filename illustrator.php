@@ -1,4 +1,7 @@
-<?php include 'header.php'; ?>
+<?php 
+	$title = "Cheetyr – Adobe Illustrator Cheatsheet";
+	include 'header.php';
+?>
 	<main>
 		<h1>Illustrator</h1>
 		<h2>Tools</h2>

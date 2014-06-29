@@ -1,4 +1,7 @@
-<?php include 'header.php'; ?>
+<?php
+	$title = "Cheetyr – Cheatsheets for Designers &amp; Developers";
+	include 'header.php';
+?>
 	<main>
 		<h1>Welcome to Cheetyr</h1>
 		<p class="lede">A handy collection of cheatsheets and shortcuts to speed up the work of designers and developers.</p>

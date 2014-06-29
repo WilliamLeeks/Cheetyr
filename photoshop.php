@@ -1,4 +1,7 @@
-<?php include 'header.php'; ?>
+<?php
+	$title = "Cheetyr – Adobe Photoshop Cheatsheet";
+	include 'header.php';
+?>
 	<main>
 		<h1>Photoshop</h1>
 		<h2>Tools</h2>

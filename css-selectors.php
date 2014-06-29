@@ -1,4 +1,7 @@
-<?php include 'header.php'; ?>
+<?php
+	$title = "Cheetyr – CSS Selectors Cheatsheet";
+	include 'header.php';
+?>
 	<main>
 		<h1>CSS</h1>
 		<h2>Selectors</h2>

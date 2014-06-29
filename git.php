@@ -1,4 +1,7 @@
-<?php include 'header.php'; ?>
+<?php
+	$title = "Cheetyr – Git Cheatsheet";
+	include 'header.php';
+?>
 	<main>
 		<h1>Git</h1>
 		<h2>Getting Started</h2>

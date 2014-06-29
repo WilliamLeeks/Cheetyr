@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 
-<title>Cheetyr</title>
+<title><?php echo $title; ?></title>
 <meta name="description" content="A handy collection of cheatsheets for designers and developers.">
 
 <!-- Mobile viewport optimized: h5bp.com/viewport -->
