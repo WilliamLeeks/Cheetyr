@@ -20,6 +20,16 @@
 <script type="text/javascript" src="//use.typekit.net/llu6zkn.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
+<!-- GoSquared Analytics -->
+<script>
+  !function(g,s,q,r,d){r=g[r]=g[r]||function(){(r.q=r.q||[]).push(
+  arguments)};d=s.createElement(q);q=s.getElementsByTagName(q)[0];
+  d.src='//d1l6p2sc9645hc.cloudfront.net/tracker.js';q.parentNode.
+  insertBefore(d,q)}(window,document,'script','_gs');
+
+  _gs('GSN-804206-B');
+</script>
+
 </head>
 <body>
 	<header>
@@ -46,6 +56,9 @@
 				</li>
 				<li class="site-nav_list-item">
 					<a href="git.php" class="site-nav_link">Git</a>
+				</li>
+				<li class="site-nav_list-item">
+					<a href="vim.php" class="site-nav_link">Vim</a>
 				</li>
 			</ul>
 		</nav>
