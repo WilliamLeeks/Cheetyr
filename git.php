@@ -37,7 +37,11 @@
 		<h2>Branches &amp; Tags</h2>
 		<dl>
 			<dt>$ git branch</dt>
-			<dd>List all existing branches</dd>
+			<dd>List local branches</dd>
+			<dt>$ git branch -a</dt>
+			<dd>List both local and remote branches</dd>
+			<dt>$ git branch -r</dt>
+			<dd>List remote branches</dd>
 			<dt>$ git checkout <em>[branch]</em></dt>
 			<dd>Switch HEAD branch</dd>
 			<dt>$ git branch <em>[new branch]</em></dt>
@@ -51,6 +55,8 @@
 		</dl>
 		<h2>Remote</h2>
 		<dl>
+			<dt>$ git remote update</dt>
+			<dd>Refresh list of remotes</dd>
 			<dt>$ git remote -v</dt>
 			<dd>List all currently configured remotes</dd>
 			<dt>$ git remote show <em>[remote]</em></dt>
@@ -86,7 +92,7 @@
 			<dt>$ git stash</dt>
 			<dd>Temporarily store all modified tracked files</dd>
 			<dt>$ git stash pop</dt>
-			<dd>Restore most recetly stashed files</dd>
+			<dd>Restore most recently stashed files</dd>
 			<dt>$ git stash list</dt>
 			<dd>List all stashed changes</dd>
 			<dt>$ git stash drop</dt>
@@ -94,7 +100,7 @@
 		</dl>
 		<h2>Reset &amp; Revert</h2>
 		<dl>
-			<dt>$ git reset --hard HEAD</dd>
+			<dt>$ git reset --hard HEAD</dt>
 			<dd>Discard all local changes in your working directory</dd>
 			<dt>$ git checkout HEAD <em>[file]</em></dt>
 			<dd>Discard local changes in <em>[file]</em></dd>
