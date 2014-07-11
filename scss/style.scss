@@ -167,7 +167,7 @@ main {
 	margin: 20px 0 20px 250px;
 	padding: 30px 50px;
 	font-size: 1.6em;
-	width: 700px;
+	width: 800px;
 	border: 10px solid $yellow;
 }
 
@@ -198,10 +198,13 @@ dt,
 dd {
 	float: left;
 	border-top: 1px solid #ddd;
-	padding: 0.7em 0;
+	padding-top: 0.7em;
+	padding-bottom: 0.7em;
 }
 dt {
-	width: 40%;
+	width: 37%;
+	padding-right: 3%;
+	clear: left;
 }
 dd {
 	width: 60%;
@@ -289,7 +292,7 @@ footer a {
 /*** MEDIA QUERIES
 --------------------------------------------*/
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 1090px) {
 
 main {
 	margin: 70px auto 20px;
@@ -301,7 +304,6 @@ header {
 	width: 100%;
 	padding: 15px 20px 10px;
 	background: white;
-	background: rgba(255, 255, 255, 0.9);
 }
 .brand {
 	width: 100px;
@@ -332,8 +334,7 @@ dd {
 	float: none;
 }
 dt {
-	font-weight: bold;
-	padding: 0.3em 0 0 0;
+	padding: 0.8em 0 0 0;
 	width: 100%;
 }
 dd {
