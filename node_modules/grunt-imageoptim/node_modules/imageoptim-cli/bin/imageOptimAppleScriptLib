@@ -1,0 +1,210 @@
+#!/bin/osascript
+
+-- Copyright © 2013 Jamie Mason, @GotNoSugarBaby,
+-- https://github.com/JamieMason
+
+-- Permission is hereby granted, free of charge, to any person
+-- obtaining a copy of this software and associated documentation files
+-- (the "Software"), to deal in the Software without restriction,
+-- including without limitation the rights to use, copy, modify, merge,
+-- publish, distribute, sublicense, and/or sell copies of the Software,
+-- and to permit persons to whom the Software is furnished to do so,
+-- subject to the following conditions:
+
+-- The above copyright notice and this permission notice shall be
+-- included in all copies or substantial portions of the Software.
+
+-- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+-- EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+-- MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+-- NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+-- BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+-- ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+-- CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+-- SOFTWARE.
+
+
+-- ------------------------------------
+-- Using the Application's bundle id, get the .app file name if installed
+-- eg. "net.pornel.ImageOptim" -> "ImageOptim.app"
+-- ------------------------------------
+on has_app_installed(appFileId)
+  try
+    tell application "Finder"
+      return name of application file id appFileId
+    end tell
+  on error err_msg number err_num
+    return "NOT_INSTALLED"
+  end try
+end has_app_installed
+
+
+-- ------------------------------------
+-- Return true is GUIScript is enabled, or false
+-- ------------------------------------
+on has_gui_script()
+  tell application "System Events"
+    set isEnabled to UI elements enabled
+  end tell
+  return isEnabled as boolean
+end has_gui_script
+
+
+-- ------------------------------------
+-- Feed a folder of images into JPEGmini
+-- ------------------------------------
+on run_jpegmini(imgPath, appName)
+  try
+    tell application appName
+
+      -- start the app
+      activate
+
+      -- let it boot up
+      delay 3
+
+      -- ensure it still has focus
+      activate
+
+    end tell
+
+    tell application "System Events"
+      tell process appName
+
+        -- Navigate to the File > Open menu
+        click menu item "Open…" of menu 1 of menu bar item "File" of menu bar 1
+
+        -- let Finder spawn the browse dialog
+        delay 3
+
+        -- command+shift+g in Finder lets us enter file paths direct
+        keystroke "g" using {command down, shift down}
+
+        -- wait for Finder
+        delay 1
+
+        -- enter path
+        set value of text field 1 of sheet 1 of sheet 1 of window appName to imgPath
+
+        -- wait for Finder to do it
+        repeat
+          set actualValue to value of text field 1 of sheet 1 of sheet 1 of window appName
+          if actualValue is not equal to imgPath then
+            delay 0.5
+          else
+            -- and navigate to it
+            keystroke return
+            exit repeat
+          end if
+        end repeat
+
+        -- let Finder resolve the path
+        delay 2
+
+        -- start JPEGmini off optimising the folder
+        click button "Open" of sheet 1 of window appName
+
+        -- report success
+        return true
+
+      end tell
+    end tell
+
+    -- report success
+    return true
+
+    on error error_message
+
+      -- report failure
+      return false
+
+  end try
+end run_jpegmini
+
+
+-- ------------------------------------
+-- Watch app until it's finished working with our folder
+-- ------------------------------------
+on wait_for(processName)
+  tell application "System Events"
+
+    set idleCount to 0
+
+    repeat
+
+      -- get all process information | filtered to JPEGmini
+      set getRawProcess to "ps aux | grep '/Applications/" & processName & "'"
+
+      -- filter out JPEGmini grep | get column 3 of output (% CPU)
+      set filterRawProcess to "grep -v grep | awk '{print $3}'"
+
+      -- store above pipe chain in a variable
+      set getRawCpu to "RAWCPU=$(" & getRawProcess & " | " & filterRawProcess & ")"
+
+      -- round that variable to a whole number
+      set outputRoundedCpu to "$(printf \"%.0f\" $(echo \"scale=2;$RAWCPU\" | bc))"
+
+      -- join the two commands and echo it out to applescript
+      set getCpuPercent to getRawCpu & " && echo " & outputRoundedCpu
+
+      -- get raw terminal string output
+      set cpuPercent to (do shell script getCpuPercent) as number
+
+      -- give the app a little time to work
+      delay 0.5
+
+      -- if the app is idle
+      if (cpuPercent) < 1 then
+        -- increment number of times we've found the app consecutively idle
+        set idleCount to idleCount + 1
+        -- if it's been idle for long enough we can exit
+        if (idleCount) > 2 then
+          exit repeat
+        end if
+      end if
+
+      -- (implied else: by not exiting we repeat again)
+
+    end repeat
+
+  end tell
+end wait_for
+
+
+-- ------------------------------------
+-- handle input from terminal
+-- ------------------------------------
+on run argv
+
+  -- the first option should always be the command to run
+  set command to item 1 of argv
+
+  -- in the case of JPEGmini, we need to know if GUIScript is enabled...
+  if command is "has_app_installed" then
+
+    -- we expect the 2nd argument to be the application's bundle id
+    return has_app_installed(item 2 of argv)
+
+  -- in the case of JPEGmini
+  else if command is "has_gui_script" then
+
+    -- we need to know if GUIScript is enabled
+    return has_gui_script()
+
+  -- process a directory using JPEGmini
+  else if command is "run_jpegmini" then
+
+    -- we expect the 2nd argument to be the path
+    -- we expect the 3rd argument to be the app name
+    -- optimise the directory of images
+    run_jpegmini(item 2 of argv, item 3 of argv)
+
+  -- wait for an app to finish running
+  else if command is "wait_for" then
+
+    -- we expect the 2nd argument to be the app name
+    -- keep the shell script waiting until the app has finished
+    wait_for(item 2 of argv)
+
+  end if
+end run
