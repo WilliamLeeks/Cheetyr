@@ -9,10 +9,11 @@
 <!-- Mobile viewport optimized: h5bp.com/viewport -->
 <meta name="viewport" content="width=device-width, maximum-scale=1.0">
 
-<!-- HTML5 Shiv -->
-<script src="js/html5shiv.js"></script>
-
 <link rel="stylesheet" href="css/style.css">
+
+<!-- Modernizr -->
+<script src="js/modernizr.js"></script>
+
 <!-- Prefix-free CSS -->
 <script src="js/prefixfree.min.js"></script>
 
