@@ -10,3 +10,9 @@ $(".js--nav-toggle").click(function() {
 		$(this).addClass("js--nav-toggle--to-x");
 	}
 });
+
+// Provide fallbacks for SVG images
+if (!Modernizr.svg) {
+  $(".brand").attr("src", "img/cheetyr-logo.png");
+  $(".wl-brand").attr("src", "img/william-leeks-logo.png");
+}
