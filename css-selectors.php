@@ -21,7 +21,7 @@
 			<dt>div + p</dt>
 			<dd>Selects all &lt;p&gt; elements placed immediately after &lt;div&gt; elements</dd>
 			<dt>div~ul</dt>
-			<dd>Selects all &lt;p&gt; elements preceded by &lt;div&gt; elements</dd>
+			<dd>Selects all &lt;ul&gt; elements preceded by &lt;div&gt; elements</dd>
 		</dl>
 		<h2>Attributes</h2>
 		<dl>
