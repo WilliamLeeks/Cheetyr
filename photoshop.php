@@ -111,6 +111,35 @@
 			<dt>Hold Space</dt>
 			<dd>Move marquee while drawing selection</dd>
 		</dl>
+		<h2>Images &amp; Layers</h2>
+		<dl>
+			<dt>&#8984; <span class="light-text">+</span> &#8997; <span class="light-text">+</span> I</dt>
+			<dd>Resize Image</dd>
+			<dt>&#8984; <span class="light-text">+</span> &#8997; <span class="light-text">+</span> C</dt>
+			<dd>Resize Canvas</dd>
+			<dt>&#8984; <span class="light-text">+</span> N</dt>
+			<dd>New Layer</dd>
+			<dt>&#8984; <span class="light-text">+</span> J</dt>
+			<dd>New Layer via Copy</dd>
+			<dt>&#8984; <span class="light-text">+</span> &#8679; <span class="light-text">+</span> J</dt>
+			<dd>New Layer via Cut</dd>
+			<dt>&#8984; <span class="light-text">+</span> G</dt>
+			<dd>Group Layers</dd>
+			<dt>&#8984; <span class="light-text">+</span> &#8679; <span class="light-text">+</span> G</dt>
+			<dd>Ungroup Layers</dd>
+			<dt>&#8984; <span class="light-text">+</span> &#8679; <span class="light-text">+</span> ]</dt>
+			<dd>Bring to Front</dd>
+			<dt>&#8984; <span class="light-text">+</span> ]</dt>
+			<dd>Bring Forward</dd>
+			<dt>&#8984; <span class="light-text">+</span> [</dt>
+			<dd>Send Backward</dd>
+			<dt>&#8984; <span class="light-text">+</span> &#8679; <span class="light-text">+</span> [</dt>
+			<dd>Send to Back</dd>
+			<dt>&#8984; <span class="light-text">+</span> E</dt>
+			<dd>Merge Layers</dd>
+			<dt>&#8984; <span class="light-text">+</span> &#8679; <span class="light-text">+</span> E</dt>
+			<dd>Merge Visible</dd>
+		</dl>
 		<h2>Opacity</h2>
 		<dl>
 			<dt>1</dt>
@@ -154,6 +183,10 @@
 			<dd>Print</dd>
 			<dt>&#8984; <span class="light-text">+</span> Z</dt>
 			<dd>Undo/Redo</dd>
+			<dt>&#8984; <span class="light-text">+</span> &#8679; <span class="light-text">+</span> Z</dt>
+			<dd>Step Forward</dd>
+			<dt>&#8984; <span class="light-text">+</span> &#8997; <span class="light-text">+</span> Z</dt>
+			<dd>Step Backward</dd>
 			<dt>&#8984; <span class="light-text">+</span> X</dt>
 			<dd>Cut</dd>
 			<dt>&#8984; <span class="light-text">+</span> C</dt>
