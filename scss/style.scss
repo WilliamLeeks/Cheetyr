@@ -167,7 +167,7 @@ main {
 	margin: 20px 0 20px 250px;
 	padding: 30px 50px;
 	font-size: 1.6em;
-	width: 800px;
+	width: 750px;
 	border: 10px solid $yellow;
 }
 
@@ -292,7 +292,7 @@ footer a {
 /*** MEDIA QUERIES
 --------------------------------------------*/
 
-@media only screen and (max-width: 1090px) {
+@media only screen and (max-width: 1024px) {
 
 main {
 	margin: 70px auto 20px;
