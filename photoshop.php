@@ -4,197 +4,198 @@
 ?>
 	<main>
 		<h1>Photoshop</h1>
+		<input id="search-sheet" placeholder="Type to filter sheet">
 		<h2>Tools</h2>
-		<dl>
-			<dt>V</dt>
-			<dd>Move Tool</dd>
-			<dt>M</dt>
-			<dd>Rectangular Marquee Tool</dd>
-			<dt>W</dt>
-			<dd>Magic Wand Tool</dd>
-			<dt>L</dt>
-			<dd>Polygonal Lasso Tool</dd>
-			<dt>I</dt>
-			<dd>Eyedropper Tool</dd>
-			<dt>C</dt>
-			<dd>Crop Tool</dd>
-			<dt>B</dt>
-			<dd>Brush Tool</dd>
-			<dt>[</dt>
-			<dd>Decrease Brush Size</dd>
-			<dt>]</dt>
-			<dd>Increase Brush Size</dd>
-			<dt>J</dt>
-			<dd>Spot Healing Brush Tool</dd>
-			<dt>Y</dt>
-			<dd>History Brush Tool</dd>
-			<dt>S</dt>
-			<dd>Clone Stamp Tool</dd>
-			<dt>G</dt>
-			<dd>Paint Bucket Tool</dd>
-			<dt>E</dt>
-			<dd>Eraser Tool</dd>
-			<dt>O</dt>
-			<dd>Dodge Tool</dd>
-			<dt>T</dt>
-			<dd>Type Tool</dd>
-			<dt>P</dt>
-			<dd>Pen Tool</dd>
-			<dt>U</dt>
-			<dd>Rectangle Tool</dd>
-			<dt>A</dt>
-			<dd>Direct Selection Tool</dd>
-			<dt>H</dt>
-			<dd>Hand Tool</dd>
-			<dt>R</dt>
-			<dd>Rotate Tool</dd>
-			<dt>Q</dt>
-			<dd>Quick Mask</dd>
-			<dt>\</dt>
-			<dd>Toggle Layer Mask</dd>
-			<dt>D</dt>
-			<dd>Default Colours</dd>
-			<dt>&#8679; + <em>[Tool]</em></dt>
-			<dd>Switch between tool in groups</dd>
-		</dl>
+		<ul class="command-list">
+			<li><p>V</p>
+			<p>Move Tool</p></li>
+			<li><p>M</p>
+			<p>Rectangular Marquee Tool</p></li>
+			<li><p>W</p>
+			<p>Magic Wand Tool</p></li>
+			<li><p>L</p>
+			<p>Polygonal Lasso Tool</p></li>
+			<li><p>I</p>
+			<p>Eyedropper Tool</p></li>
+			<li><p>C</p>
+			<p>Crop Tool</p></li>
+			<li><p>B</p>
+			<p>Brush Tool</p></li>
+			<li><p>[</p>
+			<p>Decrease Brush Size</p></li>
+			<li><p>]</p>
+			<p>Increase Brush Size</p></li>
+			<li><p>J</p>
+			<p>Spot Healing Brush Tool</p></li>
+			<li><p>Y</p>
+			<p>History Brush Tool</p></li>
+			<li><p>S</p>
+			<p>Clone Stamp Tool</p></li>
+			<li><p>G</p>
+			<p>Paint Bucket Tool</p></li>
+			<li><p>E</p>
+			<p>Eraser Tool</p></li>
+			<li><p>O</p>
+			<p>Dodge Tool</p></li>
+			<li><p>T</p>
+			<p>Type Tool</p></li>
+			<li><p>P</p>
+			<p>Pen Tool</p></li>
+			<li><p>U</p>
+			<p>Rectangle Tool</p></li>
+			<li><p>A</p>
+			<p>Direct Selection Tool</p></li>
+			<li><p>H</p>
+			<p>Hand Tool</p></li>
+			<li><p>R</p>
+			<p>Rotate Tool</p></li>
+			<li><p>Q</p>
+			<p>Quick Mask</p></li>
+			<li><p>\</p>
+			<p>Toggle Layer Mask</p></li>
+			<li><p>D</p>
+			<p>Default Colours</p></li>
+			<li><p>&#8679; + <em>[Tool]</em></p>
+			<p>Switch between tool in groups</p></li>
+		</ul>
 		<h2>Changing View</h2>
-		<dl>
-			<dt>Z</dt>
-			<dd>Zoom Tool</dd>
-			<dt>&#8984; <span class="light-text">+</span> –</dt>
-			<dd>Zoom In</dd>
-			<dt>&#8984; <span class="light-text">+</span> +</dt>
-			<dd>Zoom Out</dd>
-			<dt>&#8984; <span class="light-text">+</span> 0</dt>
-			<dd>Fit Screen</dd>
-			<dt>Tab</dt>
-			<dd>Hide all tools and panels</dt>
-			<dt>&#8679; <span class="light-text">+</span> Tab</dd>
-			<dd>Hide all panels except Toolbox &amp; Options</dd>
-			<dt>&#8984; <span class="light-text">+</span> &#8679; <span class="light-text">+</span> Page Up/Down</dt>
-			<dd>Scroll image left or right in window</dd>
-			<dt>&#8984; <span class="light-text">+</span> &#8679; <span class="light-text">+</span> Drag in Navigator</dt>
-			<dd>Jump/Zoom to part of image</dd>
-			<dt>&#8984; <span class="light-text">+</span> ~</dt>
-			<dd>Switch open tabs</dd>
-			<dt>&#8984; <span class="light-text">+</span> R</dt>
-			<dd>Show/Hide Rulers</dd>
-			<dt>&#8984; <span class="light-text">+</span> ;</dt>
-			<dd>Show/Hide Guides</dd>
-			<dt>&#8984; <span class="light-text">+</span> '</dt>
-			<dd>Show/Hide Grid</dd>
-		</dl>
+		<ul class="command-list">
+			<li><p>Z</p>
+			<p>Zoom Tool</p></li>
+			<li><p>&#8984; <span class="light-text">+</span> –</p>
+			<p>Zoom In</p></li>
+			<li><p>&#8984; <span class="light-text">+</span> +</p>
+			<p>Zoom Out</p></li>
+			<li><p>&#8984; <span class="light-text">+</span> 0</p>
+			<p>Fit Screen</p></li>
+			<li><p>Tab</p>
+			<p>Hide all tools and panels</p></li>
+			<li><p>&#8679; <span class="light-text">+</span> Tab</p>
+			<p>Hide all panels except Toolbox &amp; Options</p></li>
+			<li><p>&#8984; <span class="light-text">+</span> &#8679; <span class="light-text">+</span> Page Up/Down</p>
+			<p>Scroll image left or right in window</p></li>
+			<li><p>&#8984; <span class="light-text">+</span> &#8679; <span class="light-text">+</span> Drag in Navigator</p>
+			<p>Jump/Zoom to part of image</p></li>
+			<li><p>&#8984; <span class="light-text">+</span> ~</p>
+			<p>Switch open tabs</p></li>
+			<li><p>&#8984; <span class="light-text">+</span> R</p>
+			<p>Show/Hide Rulers</p></li>
+			<li><p>&#8984; <span class="light-text">+</span> ;</p>
+			<p>Show/Hide Guides</p></li>
+			<li><p>&#8984; <span class="light-text">+</span> '</p>
+			<p>Show/Hide Grid</p></li>
+		</ul>
 		<h2>Selecting &amp; Moving</h2>
-		<dl>
-			<dt>&#8679; <span class="light-text">+</span> Marquee</dt>
-			<dd>Draw Marquee from centre</dd>
-			<dt>&#8679;</dt>
-			<dd>Add to a selection</dd>
-			<dt>&#8997;</dt>
-			<dd>Subtract from selection</dd>
-			<dt>&#8679; <span class="light-text">+</span> &#8997;</dt>
-			<dd>Intersect with selection</dd>
-			<dt>&#8997; <span class="light-text">+</span> Drag Selection</dt>
-			<dd>Make copy of selection w/ Move Tool</dd>
-			<dt>&#8984; <span class="light-text">+</span> &#8997; <span class="light-text">+</span> Drag Selection</dt>
-			<dd>Make copy of selection not in Move Tool</dd>
-			<dt>Arrow Keys</dt>
-			<dd>Move selection (1 pixel increments)</dd>
-			<dt>&#8679; <span class="light-text">+</span> Arrow Keys</dt>
-			<dd>Move selection (10 pixel increments)</dd>
-			<dt>&#8984; <span class="light-text">+</span> Click Layer Thumbnail</dt>
-			<dd>Select all opaque pixels on layer</dd>
-			<dt>&#8984; <span class="light-text">+</span> &#8679; <span class="light-text">+</span> D</dt>
-			<dd>Restore last selection</dd>
-			<dt>&#8679; <span class="light-text">+</span> F6</dt>
-			<dd>Feather selection</dd>
-			<dt>Hold Space</dt>
-			<dd>Move marquee while drawing selection</dd>
-		</dl>
+		<ul class="command-list">
+			<li><p>&#8679; <span class="light-text">+</span> Marquee</p>
+			<p>Draw Marquee from centre</p></li>
+			<li><p>&#8679;</p>
+			<p>Add to a selection</p></li>
+			<li><p>&#8997;</p>
+			<p>Subtract from selection</p></li>
+			<li><p>&#8679; <span class="light-text">+</span> &#8997;</p>
+			<p>Intersect with selection</p></li>
+			<li><p>&#8997; <span class="light-text">+</span> Drag Selection</p>
+			<p>Make copy of selection w/ Move Tool</p></li>
+			<li><p>&#8984; <span class="light-text">+</span> &#8997; <span class="light-text">+</span> Drag Selection</p>
+			<p>Make copy of selection not in Move Tool</p></li>
+			<li><p>Arrow Keys</p>
+			<p>Move selection (1 pixel increments)</p></li>
+			<li><p>&#8679; <span class="light-text">+</span> Arrow Keys</p>
+			<p>Move selection (10 pixel increments)</p></li>
+			<li><p>&#8984; <span class="light-text">+</span> Click Layer Thumbnail</p>
+			<p>Select all opaque pixels on layer</p></li>
+			<li><p>&#8984; <span class="light-text">+</span> &#8679; <span class="light-text">+</span> D</p>
+			<p>Restore last selection</p></li>
+			<li><p>&#8679; <span class="light-text">+</span> F6</p>
+			<p>Feather selection</p></li>
+			<li><p>Hold Space</p>
+			<p>Move marquee while drawing selection</p></li>
+		</ul>
 		<h2>Images &amp; Layers</h2>
-		<dl>
-			<dt>&#8984; <span class="light-text">+</span> &#8997; <span class="light-text">+</span> I</dt>
-			<dd>Resize Image</dd>
-			<dt>&#8984; <span class="light-text">+</span> &#8997; <span class="light-text">+</span> C</dt>
-			<dd>Resize Canvas</dd>
-			<dt>&#8984; <span class="light-text">+</span> N</dt>
-			<dd>New Layer</dd>
-			<dt>&#8984; <span class="light-text">+</span> J</dt>
-			<dd>New Layer via Copy</dd>
-			<dt>&#8984; <span class="light-text">+</span> &#8679; <span class="light-text">+</span> J</dt>
-			<dd>New Layer via Cut</dd>
-			<dt>&#8984; <span class="light-text">+</span> G</dt>
-			<dd>Group Layers</dd>
-			<dt>&#8984; <span class="light-text">+</span> &#8679; <span class="light-text">+</span> G</dt>
-			<dd>Ungroup Layers</dd>
-			<dt>&#8984; <span class="light-text">+</span> &#8679; <span class="light-text">+</span> ]</dt>
-			<dd>Bring to Front</dd>
-			<dt>&#8984; <span class="light-text">+</span> ]</dt>
-			<dd>Bring Forward</dd>
-			<dt>&#8984; <span class="light-text">+</span> [</dt>
-			<dd>Send Backward</dd>
-			<dt>&#8984; <span class="light-text">+</span> &#8679; <span class="light-text">+</span> [</dt>
-			<dd>Send to Back</dd>
-			<dt>&#8984; <span class="light-text">+</span> E</dt>
-			<dd>Merge Layers</dd>
-			<dt>&#8984; <span class="light-text">+</span> &#8679; <span class="light-text">+</span> E</dt>
-			<dd>Merge Visible</dd>
-		</dl>
+		<ul class="command-list">
+			<li><p>&#8984; <span class="light-text">+</span> &#8997; <span class="light-text">+</span> I</p>
+			<p>Resize Image</p></li>
+			<li><p>&#8984; <span class="light-text">+</span> &#8997; <span class="light-text">+</span> C</p>
+			<p>Resize Canvas</p></li>
+			<li><p>&#8984; <span class="light-text">+</span> N</p>
+			<p>New Layer</p></li>
+			<li><p>&#8984; <span class="light-text">+</span> J</p>
+			<p>New Layer via Copy</p></li>
+			<li><p>&#8984; <span class="light-text">+</span> &#8679; <span class="light-text">+</span> J</p>
+			<p>New Layer via Cut</p></li>
+			<li><p>&#8984; <span class="light-text">+</span> G</p>
+			<p>Group Layers</p></li>
+			<li><p>&#8984; <span class="light-text">+</span> &#8679; <span class="light-text">+</span> G</p>
+			<p>Ungroup Layers</p></li>
+			<li><p>&#8984; <span class="light-text">+</span> &#8679; <span class="light-text">+</span> ]</p>
+			<p>Bring to Front</p></li>
+			<li><p>&#8984; <span class="light-text">+</span> ]</p>
+			<p>Bring Forward</p></li>
+			<li><p>&#8984; <span class="light-text">+</span> [</p>
+			<p>Send Backward</p></li>
+			<li><p>&#8984; <span class="light-text">+</span> &#8679; <span class="light-text">+</span> [</p>
+			<p>Send to Back</p></li>
+			<li><p>&#8984; <span class="light-text">+</span> E</p>
+			<p>Merge Layers</p></li>
+			<li><p>&#8984; <span class="light-text">+</span> &#8679; <span class="light-text">+</span> E</p>
+			<p>Merge Visible</p></li>
+		</ul>
 		<h2>Opacity</h2>
-		<dl>
-			<dt>1</dt>
-			<dd>10% Opacity</dd>
-			<dt>2</dt>
-			<dd>20% Opacity</dd>
-			<dt>3</dt>
-			<dd>30% Opacity</dd>
-			<dt>4</dt>
-			<dd>40% Opacity</dd>
-			<dt>5</dt>
-			<dd>50% Opacity</dd>
-			<dt>6</dt>
-			<dd>60% Opacity</dd>
-			<dt>7</dt>
-			<dd>70% Opacity</dd>
-			<dt>8</dt>
-			<dd>80% Opacity</dd>
-			<dt>9</dt>
-			<dd>90% Opacity</dd>
-			<dt>0</dt>
-			<dd>100% Opacity</dd>
-		</dl>
+		<ul class="command-list">
+			<li><p>1</p>
+			<p>10% Opacity</p></li>
+			<li><p>2</p>
+			<p>20% Opacity</p></li>
+			<li><p>3</p>
+			<p>30% Opacity</p></li>
+			<li><p>4</p>
+			<p>40% Opacity</p></li>
+			<li><p>5</p>
+			<p>50% Opacity</p></li>
+			<li><p>6</p>
+			<p>60% Opacity</p></li>
+			<li><p>7</p>
+			<p>70% Opacity</p></li>
+			<li><p>8</p>
+			<p>80% Opacity</p></li>
+			<li><p>9</p>
+			<p>90% Opacity</p></li>
+			<li><p>0</p>
+			<p>100% Opacity</p></li>
+		</ul>
 		<h2>General</h2>
-		<dl>
-			<dt>&#8984; <span class="light-text">+</span> N</dt>
-			<dd>New File</dd>
-			<dt>&#8984; <span class="light-text">+</span> S</dt>
-			<dd>Save</dd>
-			<dt>&#8984; <span class="light-text">+</span> &#8679; <span class="light-text">+</span> S</dt>
-			<dd>Save As</dd>
-			<dt>&#8984; <span class="light-text">+</span> &#8679; <span class="light-text">+</span> &#8997; <span class="light-text">+</span> S</dt>
-			<dd>Save for Web &amp; Devices</dd>
-			<dt>&#8984; <span class="light-text">+</span> O</dt>
-			<dd>Open</dd>
-			<dt>&#8984; <span class="light-text">+</span> Q</dt>
-			<dd>Quit</dd>
-			<dt>&#8984; <span class="light-text">+</span> W</dt>
-			<dd>Close</dd>
-			<dt>&#8984; <span class="light-text">+</span> P</dt>
-			<dd>Print</dd>
-			<dt>&#8984; <span class="light-text">+</span> Z</dt>
-			<dd>Undo/Redo</dd>
-			<dt>&#8984; <span class="light-text">+</span> &#8679; <span class="light-text">+</span> Z</dt>
-			<dd>Step Forward</dd>
-			<dt>&#8984; <span class="light-text">+</span> &#8997; <span class="light-text">+</span> Z</dt>
-			<dd>Step Backward</dd>
-			<dt>&#8984; <span class="light-text">+</span> X</dt>
-			<dd>Cut</dd>
-			<dt>&#8984; <span class="light-text">+</span> C</dt>
-			<dd>Copy</dd>
-			<dt>&#8984; <span class="light-text">+</span> V</dt>
-			<dd>Paste</dd>
-			<dt>&#8984; <span class="light-text">+</span> K</dt>
-			<dd>Preferences</dd>
-		</dl>
+		<ul class="command-list">
+			<li><p>&#8984; <span class="light-text">+</span> N</p>
+			<p>New File</p></li>
+			<li><p>&#8984; <span class="light-text">+</span> S</p>
+			<p>Save</p></li>
+			<li><p>&#8984; <span class="light-text">+</span> &#8679; <span class="light-text">+</span> S</p>
+			<p>Save As</p></li>
+			<li><p>&#8984; <span class="light-text">+</span> &#8679; <span class="light-text">+</span> &#8997; <span class="light-text">+</span> S</p>
+			<p>Save for Web &amp; Devices</p></li>
+			<li><p>&#8984; <span class="light-text">+</span> O</p>
+			<p>Open</p></li>
+			<li><p>&#8984; <span class="light-text">+</span> Q</p>
+			<p>Quit</p></li>
+			<li><p>&#8984; <span class="light-text">+</span> W</p>
+			<p>Close</p></li>
+			<li><p>&#8984; <span class="light-text">+</span> P</p>
+			<p>Print</p></li>
+			<li><p>&#8984; <span class="light-text">+</span> Z</p>
+			<p>Undo/Redo</p></li>
+			<li><p>&#8984; <span class="light-text">+</span> &#8679; <span class="light-text">+</span> Z</p>
+			<p>Step Forward</p></li>
+			<li><p>&#8984; <span class="light-text">+</span> &#8997; <span class="light-text">+</span> Z</p>
+			<p>Step Backward</p></li>
+			<li><p>&#8984; <span class="light-text">+</span> X</p>
+			<p>Cut</p></li>
+			<li><p>&#8984; <span class="light-text">+</span> C</p>
+			<p>Copy</p></li>
+			<li><p>&#8984; <span class="light-text">+</span> V</p>
+			<p>Paste</p></li>
+			<li><p>&#8984; <span class="light-text">+</span> K</p>
+			<p>Preferences</p></li>
+		</ul>
 	</main>
 <?php include 'footer.php'; ?>
