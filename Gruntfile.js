@@ -32,7 +32,7 @@ module.exports = function(grunt) {
         tasks: 'sass'
       },
       scripts: {
-        files: 'js/*.js',
+        files: 'js/project.js',
         tasks: 'uglify'
       },
       images: {
