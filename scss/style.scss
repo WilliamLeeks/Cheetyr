@@ -169,6 +169,7 @@ main {
 	font-size: 1.6em;
 	width: 750px;
 	border: 10px solid $yellow;
+	height: auto;
 }
 
 /*** TEXT & TYPOGRAPHY
@@ -197,6 +198,7 @@ p {
 
 	&.no-border {
 		border-bottom: 0;
+		margin: 0;
 	}
 	li {
 		border-top: 1px solid #ddd;
