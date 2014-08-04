@@ -190,24 +190,31 @@ h2 {
 p {
 	margin: 0 0 1em 0;
 }
-dl {
+.command-list {
 	margin-bottom: 2em;
 	border-bottom: 1px solid #ddd;
-}
-dt,
-dd {
-	float: left;
-	border-top: 1px solid #ddd;
-	padding-top: 0.7em;
-	padding-bottom: 0.7em;
-}
-dt {
-	width: 37%;
-	padding-right: 3%;
-	clear: left;
-}
-dd {
-	width: 60%;
+	list-style: none;
+
+	&.no-border {
+		border-bottom: 0;
+	}
+	li {
+		border-top: 1px solid #ddd;
+		padding-top: 0.7em;
+		padding-bottom: 0.7em;
+	}
+	p {
+		float: left;
+		margin: 0;
+		width: 60%;
+
+		&:first-child {
+			width: 37%;
+			padding-right: 3%;
+			clear: left;
+			font-family: "anonymous-pro", sans-serif;
+		}
+	}
 }
 .lede {
 	font-size: 1.2em;
@@ -274,6 +281,13 @@ footer a {
 /*** FORMS
 --------------------------------------------*/
 
+#search-sheet {
+	margin: 0 0 1.5em 0;
+	padding: 0.3em 1em;
+	border: 3px solid $yellow;
+	border-radius: 30px;
+}
+
 /*** SELECTION HIGHLIGHTS
 --------------------------------------------*/
 
@@ -285,9 +299,9 @@ footer a {
 
 /*** CLEARFIX
 --------------------------------------------*/
-.cf:before, .cf:after, dl:before, dl:after { content: ""; display: table; }
-.cf:after, dl:after { clear: both; }
-.cf, dl { *zoom: 1; }
+.cf:before, .cf:after, .command-list li:before, .command-list li:after { content: ""; display: table; }
+.cf:after, .command-list li:after { clear: both; }
+.cf, .command-list li { *zoom: 1; }
 
 /*** MEDIA QUERIES
 --------------------------------------------*/
@@ -329,18 +343,15 @@ header {
 
 @media only screen and (max-width: 700px) {
 
-dt,
-dd {
-	float: none;
-}
-dt {
-	padding: 0.8em 0 0 0;
-	width: 100%;
-}
-dd {
-	width: 100%;
-	margin: 0 0 0.3em 0;
-	border-top: none;
+.command-list {
+	p {
+		float: none;
+		width: 100%;
+
+		&:first-child {
+			margin: 0 0 0.5em 0;
+		}
+	}
 }
 
 }
