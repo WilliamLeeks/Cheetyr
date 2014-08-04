@@ -22,7 +22,7 @@ $(function() {
     $('#search-sheet').fastLiveFilter('.command-list');
 });
 
-// Check if lists are hidden
+// Check if lists are hidden and, if they are, hide list borders and section titles
 function checkEmptyLists() {
 	$(".command-list").filter(function() {
 		return ($(this).children(":visible").length == 0)
