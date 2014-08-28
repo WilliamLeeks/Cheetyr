@@ -62,9 +62,9 @@
 		<ul class="command-list">
 			<li><p>Z</p>
 			<p>Zoom Tool</p></li>
-			<li><p>&#8984; <span class="light-text">+</span> –</p>
-			<p>Zoom In</p></li>
 			<li><p>&#8984; <span class="light-text">+</span> +</p>
+			<p>Zoom In</p></li>
+			<li><p>&#8984; <span class="light-text">+</span> -</p>
 			<p>Zoom Out</p></li>
 			<li><p>&#8984; <span class="light-text">+</span> 0</p>
 			<p>Fit Screen</p></li>
