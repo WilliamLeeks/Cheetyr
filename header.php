@@ -14,9 +14,6 @@
 <!-- Modernizr -->
 <script src="js/modernizr.js"></script>
 
-<!-- Prefix-free CSS -->
-<script src="js/prefixfree.min.js"></script>
-
 <!-- TypeKit -->
 <script type="text/javascript" src="//use.typekit.net/llu6zkn.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
