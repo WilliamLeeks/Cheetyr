@@ -28,4 +28,8 @@ Thumbs.db
 *.codekit
 .sass-cache/**
 scss/.sass-cache/**
+<<<<<<< Updated upstream
 .sass-cache/3388c54ebd8d61be5b88828096118036f3a402a6/style.scssc
+=======
+style.scssc
+>>>>>>> Stashed changes
