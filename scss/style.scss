@@ -293,8 +293,8 @@ footer a {
 /*** SELECTION HIGHLIGHTS
 --------------------------------------------*/
 
-::-moz-selection { background: #eee; color: #666; text-shadow: none; }
-::selection { background: #eee; color: #666; text-shadow: none; }
+::-moz-selection { background: lighten($yellow, 35); color: #333; text-shadow: none; }
+::selection { background: lighten($yellow, 35); color: #333; text-shadow: none; }
 
 /*** HELPER CLASSES
 --------------------------------------------*/
