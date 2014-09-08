@@ -36,5 +36,5 @@
 ehthumbs.db
 Thumbs.db
 *.codekit
-.sass-cache
-scss/.sass-cache
+**/.sass-cache
+**/.sass-cache/*
