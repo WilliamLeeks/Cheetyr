@@ -3,9 +3,9 @@
 </body>
 
 <!-- Search Filter -->
-<script src="js/jquery.fastLiveFilter.js"></script>
+<script src="../js/jquery.fastLiveFilter.js"></script>
 
-<script src="js/project.min.js"></script>
+<script src="../js/project.min.js"></script>
 
 <!-- Google Analytics -->
 <script>
