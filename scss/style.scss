@@ -249,6 +249,29 @@ p {
 	}
 }
 
+/* Platform Toggle */
+.platform-toggles {
+	position: fixed;
+	left: 780px;
+	top: 60px;
+	display: inline-block;
+	padding: 0.3em;
+	background: white;
+	border: 3px solid $yellow;
+	border-radius: 2em;
+}
+.js--platform-toggle {
+	background: none;
+	border: 0;
+	padding: 0.5em 1em;
+	border-radius: 2em;
+	color: #555;
+}
+.js--platform-toggle--active {
+	background: $yellow;
+	color: white;
+}
+
 /*** IMAGES
 --------------------------------------------*/
 
@@ -340,11 +363,19 @@ footer a {
 	.site-nav_link {
 		font-size: 120%;
 	}
+	.platform-toggles {
+		top: 110px;
+		right: 65px;
+		left: auto;
+	}
 
 }
 
 @media only screen and (max-width: 700px) {
 
+	main {
+		padding: 30px;
+	}
 	.command-list {
 		p {
 			float: none;
@@ -354,6 +385,11 @@ footer a {
 				margin: 0 0 0.5em 0;
 			}
 		}
+	}
+	.platform-toggles {
+		top: auto;
+		bottom: 20px;
+		right: 7%;
 	}
 
 }
