@@ -1,10 +1,27 @@
 <?php
-	$title = "Cheetyr – Cheatsheets for Designers &amp; Developers";
-	include 'header.php';
+header("Content-Type: text/html");
+include dirname(__FILE__) . '/includes/AltoRouter.php';
+ 
+$router = new AltoRouter();
+$router->setBasePath('');
+/* Setup the URL routing. This is production ready. */
+ 
+// Main routes that non-customers see
+$router->map('GET','/', 'home.php', 'home');
+$router->map('GET','/home', 'home.php', 'home-home');
+$router->map('GET','/photoshop', 'photoshop.php', 'photoshop');
+$router->map('GET','/illustrator', 'illustrator.php', 'illustrator');
+$router->map('GET','/css-selectors', 'css-selectors.php', 'css-selectors');
+$router->map('GET','/git', 'git.php', 'git');
+$router->map('GET','/vim', 'vim.php', 'vim');
+
+/* Match the current request */
+$match = $router->match();
+if($match) {
+  require $match['target'];
+}
+else {
+  header("HTTP/1.0 404 Not Found");
+  require '404.php';
+}
 ?>
-	<main>
-		<h1>Welcome to Cheetyr</h1>
-		<p class="lede">A handy collection of cheatsheets and shortcuts to speed up the work of designers and developers.</p>
-		<p>This project is very much a work in progress, and I hope in time to make it as comprehensive as possible. If you are interested in helping it grow, or just have a little feedback, please <a href="http://williamleeks.com/contact.php">get in touch</a> or get involved on <a href="https://github.com/WilliamLeeks/Cheetyr">GitHub</a>.</p>
-	</main>
-<?php include 'footer.php'; ?>

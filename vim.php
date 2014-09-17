@@ -1,6 +1,7 @@
 <?php
-	$sheet = 'Vim';
-	$title = "Cheetyr – $sheet Cheatsheet";
+	$sheet = 'vim';
+	$pageTitle = ucfirst($sheet);
+	$title = "Cheetyr – $pageTitle Cheatsheet";
 	include 'header.php';
 ?>
 <?php include 'main.php'; ?>

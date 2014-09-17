@@ -1,6 +1,7 @@
 <?php
-	$sheet = 'Git';
-	$title = "Cheetyr – $sheet Cheatsheet";
+	$sheet = 'git';
+	$pageTitle = ucfirst($sheet);
+	$title = "Cheetyr – $pageTitle Cheatsheet";
 	include 'header.php';
 ?>
 <?php include 'main.php'; ?>
