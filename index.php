@@ -1,6 +1,9 @@
 <?php
 header("Content-Type: text/html");
 include dirname(__FILE__) . '/includes/AltoRouter.php';
+
+// Set platformToggle to default to false
+$platformToggle = false;
  
 $router = new AltoRouter();
 $router->setBasePath('');
