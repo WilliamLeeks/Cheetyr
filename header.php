@@ -9,10 +9,10 @@
 <!-- Mobile viewport optimized: h5bp.com/viewport -->
 <meta name="viewport" content="width=device-width, maximum-scale=1.0">
 
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="../css/style.css">
 
 <!-- Modernizr -->
-<script src="js/modernizr.js"></script>
+<script src="../js/modernizr.js"></script>
 
 <!-- TypeKit -->
 <script type="text/javascript" src="//use.typekit.net/llu6zkn.js"></script>
@@ -31,38 +31,20 @@
 </head>
 <body>
 	<header>
-		<a href="index.php">
-			<img src="img/cheetyr-logo.svg" class="brand" alt="Cheetyr logo">
+		<a href="/home">
+			<img src="../img/cheetyr-logo.svg" class="brand" alt="Cheetyr logo">
 		</a>
 		<button class="js--nav-toggle">
-			<img src="img/nav-toggle-line.png" class="nav-toggle-line nav-toggle_top-line" alt="Horizontal line">
-			<img src="img/nav-toggle-line.png" class="nav-toggle-line nav-toggle_middle-line" alt="Horizontal line">
-			<img src="img/nav-toggle-line.png" class="nav-toggle-line nav-toggle_bottom-line" alt="Horizontal line">
+			<img src="../img/nav-toggle-line.png" class="nav-toggle-line nav-toggle_top-line" alt="Horizontal line">
+			<img src="../img/nav-toggle-line.png" class="nav-toggle-line nav-toggle_middle-line" alt="Horizontal line">
+			<img src="../img/nav-toggle-line.png" class="nav-toggle-line nav-toggle_bottom-line" alt="Horizontal line">
 		</button>
 	</header>
 	<aside class="sidebar">
-		<nav class="site-nav">
-			<ul class="site-nav_list">
-				<li class="site-nav_list-item">
-					<a href="photoshop.php" class="site-nav_link">Photoshop</a>
-				</li>
-				<li class="site-nav_list-item">
-					<a href="illustrator.php" class="site-nav_link">Illustrator</a>
-				</li>
-				<li class="site-nav_list-item">
-					<a href="css-selectors.php" class="site-nav_link">CSS</a>
-				</li>
-				<li class="site-nav_list-item">
-					<a href="git.php" class="site-nav_link">Git</a>
-				</li>
-				<li class="site-nav_list-item">
-					<a href="vim.php" class="site-nav_link">Vim</a>
-				</li>
-			</ul>
-		</nav>
+		<?php include 'nav.php'; ?>
 		<footer>
 			<p>Follow <a href="http://twitter.com/cheetyr">@cheetyr</a></p>
 			<p>Made by <a href="http://williamleeks.com">William Leeks</a>
-			<img src="img/william-leeks-logo.svg" alt="William Leeks logo" class="wl-brand"></p>
+			<img src="../img/william-leeks-logo.svg" alt="William Leeks logo" class="wl-brand"></p>
 		</footer>
 	</aside>
