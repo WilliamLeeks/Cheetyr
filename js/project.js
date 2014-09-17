@@ -21,3 +21,21 @@ if (!Modernizr.svg) {
 $(function() {
     $('#search-sheet').fastLiveFilter('.command-list');
 });
+
+
+// Toggle platform shortcuts
+$('.js--platform-toggle').click(function() {
+	// Make this toggle active
+	$('.js--platform-toggle').removeClass('js--platform-toggle--active');
+	$(this).addClass('js--platform-toggle--active');
+
+	// Update shortcuts
+	if( $(this).hasClass('js--setPlatformWindows') ) {
+		$("body *").replaceText( "⌘", "Ctrl" );
+		$("body *").replaceText( "⌥", "Alt" );
+	}
+	else {
+		$("body *").replaceText( "Ctrl", "⌘" );
+		$("body *").replaceText( "Alt", "⌥" );
+	}
+});
