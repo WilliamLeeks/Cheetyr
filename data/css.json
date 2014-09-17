@@ -1,0 +1,71 @@
+{
+	"pageTitle": "CSS",
+	"sections": [
+		{
+			"sectionTitle": "Selectors",
+			"shortcuts": [
+				{"shortcut": ".class", "details": "Selects all elements with .class"},
+				{"shortcut": "#id", "details": "Selects all elements with #id"},
+				{"shortcut": "*", "details": "Selects all elements"},
+				{"shortcut": "div", "details": "Selects all &lt;div&gt; elements"},
+				{"shortcut": "div, p", "details": "Selects all &lt;div&gt; and &lt;p&gt; elements"},
+				{"shortcut": "div > p", "details": "Selects all &lt;p&gt; elements with an immediate parent of &lt;div&gt;"},
+				{"shortcut": "div + p", "details": "Selects all &lt;p&gt; elements placed immediately after &lt;div&gt; elements"},
+				{"shortcut": "div~p", "details": "Selects all &lt;p&gt; elements preceded by &lt;div&gt; elements, provided they share the same parent"}
+			]
+		},
+		{
+			"sectionTitle": "Attributes",
+			"shortcuts": [
+				{"shortcut": "[attribute]", "details": "Selects all elements with the specified attribute"},
+				{"shortcut": "[attribute=value]", "details": "Selects all elements where the specified attribute is equal to ‘value’"},
+				{"shortcut": "[attribute~=value]", "details": "Selects all elements with an attribute containing the word ‘value’"},
+				{"shortcut": "[attribute|=value]", "details": "Selects all elements with an attribute list starting with ‘value’"},
+				{"shortcut": "[attribute^=value]", "details": "Selects all elements with an attribute beginning with ‘value’"},
+				{"shortcut": "[attribute$=value]", "details": "Selects all elements with an attribute ending with ‘value’"},
+				{"shortcut": "[attribute*=value]", "details": "Selects all elements with an attribute containing the substring ‘value’"}
+			]
+		},
+		{
+			"sectionTitle": "Pseudo-classes",
+			"shortcuts": [
+				{"shortcut": "a:link", "details": "Selects all unvisited links"},
+				{"shortcut": "a:visited", "details": "Selects all visited links"},
+				{"shortcut": "a:hover", "details": "Selects links on mouse hover"},
+				{"shortcut": "a:active", "details": "Selects the active link element"},
+				{"shortcut": "p::after", "details": "Insert content after &lt;p&gt; element"},
+				{"shortcut": "p::before", "details": "Insert content before &lt;p&gt; element"},
+				{"shortcut": "input:checked", "details": "Selects every checked &lt;input&gt; element"},
+				{"shortcut": "input:disabled", "details": "Selects every disabled &lt;input&gt; element"},
+				{"shortcut": "p:empty", "details": "Selects every &lt;p&gt; element with no children"},
+				{"shortcut": "input:enabled", "details": "Selects every enabled &lt;input&gt; element"},
+				{"shortcut": "p:first-child", "details": "Selects every &lt;p&gt; element that is the first child of its parent"},
+				{"shortcut": "p::first-letter", "details": "Selects the first letter of every &lt;p&gt; element"},
+				{"shortcut": "p::first-line", "details": "Selects the first line of every &lt;p&gt; element"},
+				{"shortcut": "p:first-of-type", "details": "Selects every &lt;p&gt; element that is the first &lt;p&gt; element of its parent"},
+				{"shortcut": "input:focus", "details": "Selects the &lt;input&gt; element which has focus"},
+				{"shortcut": "input:in-range", "details": "Selects &lt;input&gt; elements with a value within a specified range"},
+				{"shortcut": "input:invalid", "details": "Selects all &lt;input&gt; elements with an invalid value"},
+				{"shortcut": "p:lang(<em>language</em>)", "details": "Selects all &lt;p&gt; elements with a lang attribute equal to ‘language’"},
+				{"shortcut": "p:last-child", "details": "Selects every &lt;p&gt; element which is the last child of its parent"},
+				{"shortcut": "p:last-of-type", "details": "Selects every &lt;p&gt; element which is the last &lt;p&gt; element of its parent"},
+				{"shortcut": ":not(p)", "details": "Selects every element that is not a &lt;p&gt;"},
+				{"shortcut": "p:nth-child(2)", "details": "Selects every &lt;p&gt; element that is the second child of its parent"},
+				{"shortcut": "p:nth-last-child(2)", "details": "Selects every &lt;p&gt; element that is the second child of its parent, counting from the last child"},
+				{"shortcut": "p:nth-last-of-type(2)", "details": "Selects every &lt;p&gt; element that is the second &lt;p&gt; element of its parent, counting from the last child"},
+				{"shortcut": "p:nth-of-type(2)", "details": "Selects every &lt;p&gt; element that is the second &lt;p&gt; element of its parent"},
+				{"shortcut": "p:only-of-type", "details": "Selects every &lt;p&gt; element that is the only &lt;p&gt; element of its parent"},
+				{"shortcut": "p:only-child", "details": "Selects every &lt;p&gt; element that is the only child of its parent"},
+				{"shortcut": "input:optional", "details": "Selects &lt;input&gt; elements with no ‘required’ attribute"},
+				{"shortcut": "input:out-of-range", "details": "Selects &lt;input&gt; elements with a value outside a specified range"},
+				{"shortcut": "input:read-only", "details": "Selects &lt;input&gt; elements with the ‘readonly’ attribute specified"},
+				{"shortcut": "input:read-write", "details": "Selects &lt;input&gt; elements with the ‘readonly’ attribute not specified"},
+				{"shortcut": "input:required", "details": "Selects &lt;input&gt; elements with the ‘required’ attribute specified"},
+				{"shortcut": ":root", "details": "Selects the documents root element"},
+				{"shortcut": "::selection", "details": "Selects the portion of an element that is selected by a user"},
+				{"shortcut": "#id:target", "details": "Selects the current active #id element"},
+				{"shortcut": "input:valid", "details": "Selects all &lt;input&gt; elements with a valid value"}
+			]
+		}
+	]
+}

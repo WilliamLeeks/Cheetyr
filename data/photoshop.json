@@ -1,0 +1,122 @@
+{
+	"pageTitle": "Photoshop",
+	"sections": [
+		{
+			"sectionTitle": "Tools",
+			"shortcuts": [
+				{"shortcut": "V", "details": "Move Tool"},
+				{"shortcut": "M", "details": "Rectangular Marquee Tool"},
+				{"shortcut": "W", "details": "Magic Wand Tool"},
+				{"shortcut": "L", "details": "Polygonal Lasso Tool"},
+				{"shortcut": "I", "details": "Eyedropper Tool"},
+				{"shortcut": "C", "details": "Crop Tool"},
+				{"shortcut": "B", "details": "Brush Tool"},
+				{"shortcut": "[", "details": "Decrease Brush Size"},
+				{"shortcut": "]", "details": "Increase Brush Size"},
+				{"shortcut": "J", "details": "Spot Healing Brush Tool"},
+				{"shortcut": "Y", "details": "History Brush Tool"},
+				{"shortcut": "S", "details": "Clone Stamp Tool"},
+				{"shortcut": "G", "details": "Paint Bucket Tool"},
+				{"shortcut": "E", "details": "Eraser Tool"},
+				{"shortcut": "O", "details": "Dodge Tool"},
+				{"shortcut": "T", "details": "Type Tool"},
+				{"shortcut": "P", "details": "Pen Tool"},
+				{"shortcut": "U", "details": "Rectangle Tool"},
+				{"shortcut": "A", "details": "Direct Selection Tool"},
+				{"shortcut": "H", "details": "Hand Tool"},
+				{"shortcut": "R", "details": "Rotate Tool"},
+				{"shortcut": "Q", "details": "Quick Mask"},
+				{"shortcut": "\\", "details": "Toggle Layer Mask"},
+				{"shortcut": "D", "details": "Default Colours"},
+				{"shortcut": "&#8679; <span class='light-text'>+</span> <em>[Tool]</em>", "details": "Switch between tool in groups"}
+			]
+		},
+		{
+			"sectionTitle": "Changing View",
+			"shortcuts": [
+				{"shortcut": "Z", "details": "Zoom Tool"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> +", "details": "Zoom In"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> -", "details": "Zoom Out"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> 0", "details": "Fit Screen"},
+				{"shortcut": "Tab", "details": "Hide all tools and panels"},
+				{"shortcut": "&#8679; <span class='light-text'>+</span> Tab", "details": "Hide all panels except Toolbox &amp; Options"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8679; <span class='light-text'>+</span> Page Up/Down", "details": "Scroll image left or right in window"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8679; <span class='light-text'>+</span> Drag in Navigator", "details": "Jump/Zoom to part of image"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> ~", "details": "Switch open tabs"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> R", "details": "Show/Hide Rulers"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> ;", "details": "Show/Hide Guides"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> '", "details": "Show/Hide Grid"}
+			]
+		},
+		{
+			"sectionTitle": "Selecting &amp; Moving",
+			"shortcuts": [
+				{"shortcut": "&#8679; <span class='light-text'>+</span> Marquee", "details": "Draw Marquee from centre"},
+				{"shortcut": "&#8679;", "details": "Add to a selection"},
+				{"shortcut": "&#8997;", "details": "Subtract from selection"},
+				{"shortcut": "&#8679; <span class='light-text'>+</span> &#8997;", "details": "Intersect with selection"},
+				{"shortcut": "&#8997; <span class='light-text'>+</span> Drag Selection", "details": "Make copy of selection w/ Move Tool"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8997; <span class='light-text'>+</span> Drag Selection", "details": "Make copy of selection not in Move Tool"},
+				{"shortcut": "Arrow Keys", "details": "Move selection (1 pixel increments)"},
+				{"shortcut": "&#8679; <span class='light-text'>+</span> Arrow Keys", "details": "Move selection (10 pixel increments)"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> Click Layer Thumbnail", "details": "Select all opaque pixels on layer"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8679; <span class='light-text'>+</span> D", "details": "Restore last selection"},
+				{"shortcut": "&#8679; <span class='light-text'>+</span> F6", "details": "Feather selection"},
+				{"shortcut": "Hold Space", "details": "Move marquee while drawing selection"}
+			]
+		},
+		{
+			"sectionTitle": "Images &amp; Layers",
+			"shortcuts": [
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8997; <span class='light-text'>+</span> I", "details": "Resize Image"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8997; <span class='light-text'>+</span> C", "details": "Resize Canvas"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> N", "details": "New Layer"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> J", "details": "New Layer via Copy"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8679; <span class='light-text'>+</span> J", "details": "New Layer via Cut"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> G", "details": "Group Layers"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8679; <span class='light-text'>+</span> G", "details": "Ungroup Layers"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8679; <span class='light-text'>+</span> ]", "details": "Bring to Front"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> ]", "details": "Bring Forward"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> [", "details": "Send Backward"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8679; <span class='light-text'>+</span> [", "details": "Send to Back"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> E", "details": "Merge Layers"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8679; <span class='light-text'>+</span> E", "details": "Merge Visible"}
+			]
+		},
+		{
+			"sectionTitle": "Opacity",
+			"shortcuts": [
+				{"shortcut": "1", "details": "10% Opacity"},
+				{"shortcut": "2", "details": "20% Opacity"},
+				{"shortcut": "3", "details": "30% Opacity"},
+				{"shortcut": "4", "details": "40% Opacity"},
+				{"shortcut": "5", "details": "50% Opacity"},
+				{"shortcut": "6", "details": "60% Opacity"},
+				{"shortcut": "7", "details": "70% Opacity"},
+				{"shortcut": "8", "details": "80% Opacity"},
+				{"shortcut": "9", "details": "90% Opacity"},
+				{"shortcut": "0", "details": "100% Opacity"}
+			]
+		},
+		{
+			"sectionTitle": "General",
+			"shortcuts": [
+				{"shortcut": "&#8984; <span class='light-text'>+</span> N", "details": "New File"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> S", "details": "Save"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8679; <span class='light-text'>+</span> S", "details": "Save As"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8679; <span class='light-text'>+</span> &#8997; <span class='light-text'>+</span> S", "details": "Save for Web &amp; Devices"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> O", "details": "Open"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> Q", "details": "Quit"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> W", "details": "Close"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> P", "details": "Print"},
+				{"shortcut": "&#8984; <span class=;light-text;>+</span> Z", "details": "Undo/Redo"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8679; <span class='light-text'>+</span> Z", "details": "Step Forward"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8997; <span class='light-text'>+</span> Z", "details": "Step Backward"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> X", "details": "Cut"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> C", "details": "Copy"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> V", "details": "Paste"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> K", "details": "Preferences"}
+			]
+		}
+	]
+}

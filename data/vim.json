@@ -1,0 +1,106 @@
+{
+	"pageTitle": "Vim",
+	"sections": [
+		{
+			"sectionTitle": "Moving the Cursor",
+			"shortcuts": [
+				{"shortcut": "h", "details": "Move cursor left"},
+				{"shortcut": "l", "details": "Move cursor right"},
+				{"shortcut": "k", "details": "Move cursor up"},
+				{"shortcut": "j", "details": "Move cursor down"},
+				{"shortcut": "<em>n</em>G", "details": "Move cursor to line <em>n</em>"},
+				{"shortcut": "$", "details": "Move cursor to end of current line"},
+				{"shortcut": "0", "details": "Move cursor to beginning of current line"},
+				{"shortcut": "w", "details": "Move cursor forward one word"},
+				{"shortcut": "b", "details": "Move cursor backward one ward"}
+			]
+		},
+		{
+			"sectionTitle": "Save &amp; Exit",
+			"shortcuts": [
+				{"shortcut": ":q", "details": "Quit Vim (fails when changes have been made)"},
+				{"shortcut": ":q!", "details": "Quit without saving"},
+				{"shortcut": ":cq", "details": "Quit always, without saving"},
+				{"shortcut": ":w", "details": "Save current file"},
+				{"shortcut": ":wq", "details": "Save current file and exit"},
+				{"shortcut": ":wq!", "details": "Save current file and exit always"},
+				{"shortcut": ":wq <em>[file]</em>", "details": "Save to <em>[file]</em>, exit if not editing the last"},
+				{"shortcut": ":wq! <em>[file]</em>", "details": "Save to <em>[file]</em> and exit always"},
+				{"shortcut": ":<em>[range]</em>wq", "details": "Save only lines in <em>[range]</em> and exit"},
+				{"shortcut": "ZZ", "details": "Save current file, if modified, and exit"},
+				{"shortcut": "ZQ", "details": "Quit current file and exit"}
+			]
+		},
+		{
+			"sectionTitle": "Editing a File",
+			"shortcuts": [
+				{"shortcut": ":e", "details": "Edit the current file"},
+				{"shortcut": ":e!", "details": "Edit the current file always, discard any changes to current buffer"},
+				{"shortcut": ":e <em>[file]</em>", "details": "Edit <em>[file]</em>"},
+				{"shortcut": ":e! <em>[file]</em>", "details": "Edit <em>[file]</em> always, discard any changes to current buffer"},
+				{"shortcut": "gf", "details": "Edit the file whose name is under or after the cursor"}
+			]
+		},
+		{
+			"sectionTitle": "Inserting Text",
+			"shortcuts": [
+				{"shortcut": "a", "details": "Append text after the cursor"},
+				{"shortcut": "A", "details": "Append text at the end of the line"},
+				{"shortcut": "i", "details": "Insert text before the cursor"},
+				{"shortcut": "I", "details": "Insert text before the first non-blank in the line"},
+				{"shortcut": "o", "details": "Begin a new line below the cursor and insert text"},
+				{"shortcut": "O", "details": "Begin a new line above the cursor and insert text"}
+			]
+		},
+		{
+			"sectionTitle": "Inserting a File",
+			"shortcuts": [
+				{"shortcut": ":r <em>[name]</em>", "details": "Insert the file <em>[name]</em> below the cursor"},
+				{"shortcut": ":r !<em>[cmd]</em>", "details": "Execute <em>[cmd]</em> and insert its standard output below the cursor"}
+			]
+		},
+		{
+			"sectionTitle": "Deleting Text",
+			"shortcuts": [
+				{"shortcut": "x", "details": "Delete characters under and after the cursor"},
+				{"shortcut": "X", "details": "Delete characters before the cursor"},
+				{"shortcut": "d", "details": "Delete text that <em>[motion]</em> moves over"},
+				{"shortcut": "dw", "details": "Delete word from cursor on"},
+				{"shortcut": "db", "details": "Delete word backward"},
+				{"shortcut": "d$", "details": "Delete to end of line"},
+				{"shortcut": "dd", "details": "Delete lines"},
+				{"shortcut": "D", "details": "Delete the characters under the cursor until the end of the line"}
+			]
+		},
+		{
+			"sectionTitle": "Yank",
+			"shortcuts": [
+				{"shortcut": "yy", "details": "Yank current line"},
+				{"shortcut": "y$", "details": "Yank to end of line from cursor"},
+				{"shortcut": "yw", "details": "Yank from cursor to end of current word"},
+				{"shortcut": "<em>n</em>yy", "details": "Yank <em>n</em> lines"}
+			]
+		},
+		{
+			"sectionTitle": "Paste",
+			"shortcuts": [
+				{"shortcut": "p", "details": "Paste below cursor"},
+				{"shortcut": "P", "details": "Paste above cursor"},
+				{"shortcut": "u", "details": "Undo last change"},
+				{"shortcut": "U", "details": "Restore line"},
+				{"shortcut": "J", "details": "Join next line down to current line"}
+			]
+		},
+		{
+			"sectionTitle": "Other Useful Commands",
+			"shortcuts": [
+				{"shortcut": ".", "details": "Repeat last command"},
+				{"shortcut": "cw", "details": "Change current word to new word"},
+				{"shortcut": "r", "details": "Replace one character at the cursor position"},
+				{"shortcut": "R", "details": "Begin overstrike or replace mode"},
+				{"shortcut": ":/ <em>[pattern]</em>", "details": "Search forward for <em>[pattern]</em>"},
+				{"shortcut": ":? <em>[pattern]</em>", "details": "Search backward for <em>[pattern]</em>"}
+			]
+		}
+	]
+}

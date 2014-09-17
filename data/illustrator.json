@@ -1,0 +1,114 @@
+{
+	"pageTitle": "Illustrator",
+	"sections": [
+		{
+			"sectionTitle": "Tools",
+			"shortcuts": [
+				{"shortcut": "V", "details": "Selection Tool"},
+				{"shortcut": "M", "details": "Rectangle Tool"},
+				{"shortcut": "W", "details": "Blend Tool"},
+				{"shortcut": "L", "details": "Ellipse Tool"},
+				{"shortcut": "I", "details": "Eyedropper Tool"},
+				{"shortcut": "C", "details": "Scissors Tool"},
+				{"shortcut": "B", "details": "Paint Brush Tool"},
+				{"shortcut": "J", "details": "Column Graph Tool"},
+				{"shortcut": "Y", "details": "Magic Wand Tool"},
+				{"shortcut": "S", "details": "Scale Tool"},
+				{"shortcut": "G", "details": "Gradient Tool"},
+				{"shortcut": "E", "details": "Free Transform Tool"},
+				{"shortcut": "O", "details": "Reflect Tool"},
+				{"shortcut": "T", "details": "Type Tool"},
+				{"shortcut": "P", "details": "Pen Tool"},
+				{"shortcut": "U", "details": "Mesh Tool"},
+				{"shortcut": "A", "details": "Direct Selection Tool"},
+				{"shortcut": "H <span class='light-text'>or</span> Hold Space", "details": "Hand Tool"},
+				{"shortcut": "R", "details": "Rotate Tool"},
+				{"shortcut": "Q", "details": "Lasso Tool"},
+				{"shortcut": "D", "details": "Default Fill/Stroke"},
+				{"shortcut": "F", "details": "Screen Modes"},
+				{"shortcut": "K", "details": "Live Paint Bucket Tool"},
+				{"shortcut": "X", "details": "Switch Fill/Stroke"},
+				{"shortcut": "N", "details": "Pencil Tool"},
+				{"shortcut": ",", "details": "Fill/Stroke w/ Colour"},
+				{"shortcut": ".", "details": "Fill/Stroke w/ Gradient"},
+				{"shortcut": "/", "details": "Fill/Strike w/ None"},
+				{"shortcut": "\\", "details": "Line Segment Tool"},
+				{"shortcut": "-", "details": "Delete Anchor Point"},
+				{"shortcut": "+", "details": "Add Anchor Point"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> T", "details": "Character Window"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> I", "details": "Spell Check"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> G", "details": "Group Object"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8679; <span class='light-text'>+</span> G", "details": "Ungroup Object"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> H", "details": "Hide Anchor Points"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> B", "details": "Fill Black"}
+			]	
+		},
+		{
+			"sectionTitle": "Changing View",
+			"shortcuts": [
+				{"shortcut": "Z", "details": "Zoom Tool"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> +", "details": "Zoom In"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> -", "details": "Zoom Out"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> 0", "details": "Fit Screen"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> ~", "details": "Switch open tabs"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> R", "details": "Show/Hide Rulers"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> ;", "details": "Show/Hide Guides"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> '", "details": "Show/Hide Grid"}
+			]
+		},
+		{
+			"sectionTitle": "Shift Tool Shortcuts",
+			"shortcuts": [
+				{"shortcut": "&#8679; <span class='light-text'>+</span> Rotate Tool", "details": "Constrain rotation angles"},
+				{"shortcut": "&#8679; <span class='light-text'>+</span> C", "details": "Convert anchor point"},
+				{"shortcut": "&#8679; <span class='light-text'>+</span> B", "details": "Blob Brush"},
+				{"shortcut": "&#8679; <span class='light-text'>+</span> E", "details": "Eraser"},
+				{"shortcut": "&#8679; <span class='light-text'>+</span> S", "details": "Symbol Sprayer"},
+				{"shortcut": "&#8679; <span class='light-text'>+</span> L", "details": "Live Paint Selection"},
+				{"shortcut": "&#8679; <span class='light-text'>+</span> O", "details": "Artboard Tool"},
+				{"shortcut": "&#8679; <span class='light-text'>+</span> K", "details": "Slice Tool"},
+				{"shortcut": "&#8679; <span class='light-text'>+</span> X", "details": "Swap Fill and Stroke"}
+			]
+		},
+		{
+			"sectionTitle": "Selecting &amp; Moving",
+			"shortcuts": [
+				{"shortcut": "&#8997; <span class='light-text'>+</span> Drag Object", "details": "Copy object while dragging"},
+				{"shortcut": "Arrow Keys", "details": "Move selection"},
+				{"shortcut": "&#8679; <span class='light-text'>+</span> Arrow Keys", "details": "Move selection by 10pt"},
+				{"shortcut": "&#8679; <span class='light-text'>+</span> Select Objects", "details": "Select multiple objects"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> A", "details": "Select all"}
+			]
+		},
+		{
+			"sectionTitle": "Typography",
+			"shortcuts": [
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8679; <span class='light-text'>+</span> < <span class='light-text'>or</span> >", "details": "Decrease/Increase type size"},
+				{"shortcut": "&#8997; <span class='light-text'>+</span> &darr; <span class='light-text'>or</span> &uarr;", "details": "Decrease/Increase leading"},
+				{"shortcut": "&#8997; <span class='light-text'>+</span> &larr; <span class='light-text'>or</span> &rarr;", "details": "Decrease/Increase kerning"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8679; <span class='light-text'>+</span> L<span class='light-text'>,</span> R <span class='light-text'>or</span> C", "details": "Align type left, right or centre"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8679; <span class='light-text'>+</span> J", "details": "Justify"}
+			]
+		},
+		{
+			"sectionTitle": "General",
+			"shortcuts": [
+				{"shortcut": "&#8984; <span class='light-text'>+</span> N", "details": "New File"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> S", "details": "Save"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8679; <span class='light-text'>+</span> S", "details": "Save As"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8997; <span class='light-text'>+</span> S", "details": "Save a Copy"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8679; <span class='light-text'>+</span> &#8997; <span class='light-text'>+</span> S", "details": "Save for Web"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> O", "details": "Open"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> Q", "details": "Quit"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> W", "details": "Close"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> P", "details": "Print"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> Z", "details": "Undo"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> X", "details": "Cut"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> C", "details": "Copy"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> V", "details": "Paste"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> K", "details": "Preferences"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> M", "details": "Minify Tabs"}
+			]
+		}
+	]
+}

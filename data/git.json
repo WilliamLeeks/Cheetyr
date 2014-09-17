@@ -1,0 +1,85 @@
+{
+	"pageTitle": "Git",
+	"sections": [
+		{
+			"sectionTitle": "Getting Started",
+			"shortcuts": [
+				{"shortcut": "$ git clone <em>[repository]</em>", "details": "Clone an existing repository"},
+				{"shortcut": "$ git init", "details": "Create a new local respository"},
+			]
+		},
+		{
+			"sectionTitle": "Local",
+			"shortcuts": [
+				{"shortcut": "$ git status", "details": "Show changed files in your working directory"},
+				{"shortcut": "$ git diff", "details": "Show changes to tracked files"},
+				{"shortcut": "$ git add .", "details": ""},
+				{"shortcut": "", "details": "Add all changes to the next commit"},
+				{"shortcut": "$ git add -p <em>[file]</em>", "details": "Add changes in <em>[file]</em> to the next commit"},
+				{"shortcut": "$ git commit -a", "details": "Commit all local changes in tracked files"},
+				{"shortcut": "$ git commit", "details": "Commit previously staged changes"},
+				{"shortcut": "$ git commit --amend", "details": "Change the last commit"},
+				{"shortcut": "$ git log", "details": "Show all commits, starting with most recent"},
+				{"shortcut": "$ git log -p <em>[file]</em>", "details": "Show changes over time to <em>[file]</em>"},
+				{"shortcut": "$ git blame <em>[file]</em>", "details": "Show changes for <em>[file]</em> with time and author"}
+			]
+		},
+		{
+			"sectionTitle": "Braches &amp; Tags",
+			"shortcuts": [
+				{"shortcut": "$ git branch", "details": "List local branches"},
+				{"shortcut": "$ git branch -a", "details": "List both local and remote branches"},
+				{"shortcut": "$ git branch -r", "details": "List remote branches"},
+				{"shortcut": "$ git checkout <em>[branch]</em>", "details": "Switch HEAD branch"},
+				{"shortcut": "$ git branch <em>[new branch]</em>", "details": "Create new branch based on current HEAD"},
+				{"shortcut": "$ git branch --track <em>[new branch]</em> <em>[remote branch]</em>", "details": "Create new tracking branch based on a remote branch"},
+				{"shortcut": "$ git branch -d <em>[branch]</em>", "details": "Delete local branch"},
+				{"shortcut": "$ git tag <em>[tag name]</em>", "details": "Mark the current commit with a tag"}
+			]
+		},
+		{
+			"sectionTitle": "Remote",
+			"shortcuts": [
+				{"shortcut": "$ git remote update", "details": "Refresh list of remotes"},
+				{"shortcut": "$ git remote -v", "details": "List all currently configured remotes"},
+				{"shortcut": "$ git remote show <em>[remote]</em>", "details": "Display information about <em>[remote]</em>"},
+				{"shortcut": "$ git remote add <em>[remote]</em> <em>[url]</em>", "details": "Add a new remote, named <em>[remote]</em>"},
+				{"shortcut": "$ git fetch <em>[remote]</em>", "details": "Download all changes from <em>[remote]</em>, don't integrate into HEAD"},
+				{"shortcut": "$ git pull <em>[remote]</em> <em>[branch]</em>", "details": "Download changes and merge to HEAD"},
+				{"shortcut": "$ git push <em>[remote]</em> <em>[branch]</em>", "details": "Publish local changes"},
+				{"shortcut": "$ git push <em>[remote]</em> :<em>[branch]</em>", "details": "Delete a branch on the remote"},
+				{"shortcut": "$ git push --tags", "details": "Publish tags"}
+			]
+		},
+		{
+			"sectionTitle": "Merge &amp; Rebase",
+			"shortcuts": [
+				{"shortcut": "$ git merge <em>[branch]</em>", "details": "Merge <em>[branch]</em> into your current HEAD"},
+				{"shortcut": "$ git rebase <em>[branch]</em>", "details": "Rebase your HEAD onto <em>[branch]</em>"},
+				{"shortcut": "$ git rebase --abort", "details": "Abort a rebase"},
+				{"shortcut": "$ git rebase --continue", "details": "Continue a rebase after resolving conflicts"},
+				{"shortcut": "$ git mergetool", "details": "Use configured merge tool to resolve conflicts"}
+			]
+		},
+		{
+			"sectionTitle": "Stash",
+			"shortcuts": [
+				{"shortcut": "$ git stash", "details": "Temporarily store all modified tracked files"},
+				{"shortcut": "$ git stash pop", "details": "Restore most recently stashed files"},
+				{"shortcut": "$ git stash list", "details": "List all stashed changes"},
+				{"shortcut": "$ git stash drop", "details": "Discard most recently stashed changeset"}
+			]
+		},
+		{
+			"sectionTitle": "Reset &amp; Revert",
+			"shortcuts": [
+				{"shortcut": "$ git reset --hard HEAD", "details": "Discard all local changes in your working directory"},
+				{"shortcut": "$ git checkout HEAD <em>[file]</em>", "details": "Discard local changes in <em>[file]</em>"},
+				{"shortcut": "$ git revert <em>[commit]</em>", "details": "Revert a commit"},
+				{"shortcut": "$ git reset --hard <em>[commit]</em>", "details": "Reset HEAD to a previous commit and discard all changes since"},
+				{"shortcut": "$ git reset <em>[commit]</em>", "details": "Reset HEAD to a previous commit and preserve all changes as unstaged changes"},
+				{"shortcut": "$ git reset --keep <em>[commit]</em>", "details": "Reset HEAD to a previous commit and preserve uncommitted local changes"}
+			]
+		}
+	]
+}
