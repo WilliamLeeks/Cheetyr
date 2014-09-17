@@ -5,7 +5,7 @@
 			"sectionTitle": "Getting Started",
 			"shortcuts": [
 				{"shortcut": "$ git clone <em>[repository]</em>", "details": "Clone an existing repository"},
-				{"shortcut": "$ git init", "details": "Create a new local respository"},
+				{"shortcut": "$ git init", "details": "Create a new local respository"}
 			]
 		},
 		{
