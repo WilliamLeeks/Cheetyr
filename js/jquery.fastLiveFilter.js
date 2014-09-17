@@ -7,6 +7,19 @@
  **/
 
 jQuery.fn.fastLiveFilter = function(list, options) {
+
+	// Check if lists are hidden and, if they are, hide list borders and section titles
+	function checkEmptyLists() {
+		$(".command-list").filter(function() {
+			return ($(this).children(":visible").length == 0)
+		}).addClass('no-border').prev().hide();
+	}
+	function checkLists() {
+		$(".command-list").filter(function() {
+			return ($(this).children(":visible").length > 0)
+		}).removeClass('no-border').prev().show();
+	}
+
 	// Options: input, list, timeout, callback
 	options = options || {};
 	list = jQuery(list);
@@ -52,12 +65,19 @@ jQuery.fn.fastLiveFilter = function(list, options) {
 		// console.log('Search for ' + filter + ' took: ' + (endTime - startTime) + ' (' + numShown + ' results)');
 		return false;
 	}).keydown(function() {
+
 		clearTimeout(keyTimeout);
 		keyTimeout = setTimeout(function() {
 			if( input.val() === lastFilter ) return;
 			lastFilter = input.val();
 			input.change();
+
+			// Check display status of lists and section headings
+			checkEmptyLists();
+			checkLists();
 		}, timeout);
+
 	});
 	return this; // maintain jQuery chainability
+
 }

@@ -21,18 +21,3 @@ if (!Modernizr.svg) {
 $(function() {
     $('#search-sheet').fastLiveFilter('.command-list');
 });
-
-// Check if lists are hidden and, if they are, hide list borders and section titles
-function checkEmptyLists() {
-	$(".command-list").filter(function() {
-		return ($(this).children(":visible").length == 0)
-	}).addClass('no-border').prev().hide();
-}
-myVar = setInterval(checkEmptyLists, 100);
-
-function checkLists() {
-	$(".command-list").filter(function() {
-		return ($(this).children(":visible").length > 0)
-	}).removeClass('no-border').prev().show();
-}
-myVar = setInterval(checkLists, 100);
