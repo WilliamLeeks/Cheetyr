@@ -7,6 +7,9 @@
 			<a href="/illustrator" class="site-nav_link">Illustrator</a>
 		</li>
 		<li class="site-nav_list-item">
+			<a href="indesign" class="site-nav_link">InDesign</a>
+		</li>
+		<li class="site-nav_list-item">
 			<a href="/css-selectors" class="site-nav_link">CSS</a>
 		</li>
 		<li class="site-nav_list-item">

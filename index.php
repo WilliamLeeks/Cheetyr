@@ -14,6 +14,7 @@ $router->map('GET','/', 'home.php', 'home');
 $router->map('GET','/home', 'home.php', 'home-home');
 $router->map('GET','/photoshop', 'photoshop.php', 'photoshop');
 $router->map('GET','/illustrator', 'illustrator.php', 'illustrator');
+$router->map('GET','/indesign', 'indesign.php', 'indesign');
 $router->map('GET','/css-selectors', 'css-selectors.php', 'css-selectors');
 $router->map('GET','/git', 'git.php', 'git');
 $router->map('GET','/vim', 'vim.php', 'vim');
