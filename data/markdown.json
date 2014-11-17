@@ -1,0 +1,75 @@
+{
+	"pageTitle": "Markdown",
+	"sections": [
+		{
+			"sectionTitle": "Headers",
+			"shortcuts": [
+				{"shortcut": "#", "details": "H1"},
+				{"shortcut": "##", "details": "H2"},
+				{"shortcut": "###", "details": "H3"},
+				{"shortcut": "####", "details": "H4"},
+				{"shortcut": "#####", "details": "H5"},
+				{"shortcut": "######", "details": "H6"}
+			]
+		},
+		{
+			"sectionTitle": "Emphasis",
+			"shortcuts": [
+				{"shortcut": "*asterisks* <span class='light-text'>or</span> _underscores_", "details": "Emphasis (italics)"},
+				{"shortcut": "**double asterisks** <span class='light-text'>or</span> __double underscores__", "details": "Strong emphasis (bold)"},
+				{"shortcut": "**asterisks and _underscores_**", "details": "Combined emphasis (bold italics)"},
+				{"shortcut": "~~double tilde~~", "details": "Strikethrough"}
+			]
+		},
+		{
+			"sectionTitle": "Lists",
+			"shortcuts": [
+				{"shortcut": "1. List Item", "details": "Numbered list"},
+				{"shortcut": "<em>[indent]</em> 1. List Item", "details": "Numbered sub-list"},
+				{"shortcut": "* List Item", "details": "Unordered list"},
+				{"shortcut": "<em>[indent]</em> * List Item", "details": "Unordered sub-list"},
+				{"shortcut": "- List Item", "details": "Unordered list (alternate markdown)"},
+				{"shortcut": "+ List Item", "details": "Unordered list (alternate markdown)"}
+			]
+		},
+		{
+			"sectionTitle": "Links",
+			"shortcuts": [
+				{"shortcut": "[Link text](Link URL)", "details": "Inline-style link"},
+				{"shortcut": "[Link text](Link URL, \"Link title\")", "details": "Inline-style link with title"},
+				{"shortcut": "[Link text][Link reference text]", "details": "Reference-style link (requires reference)"},
+				{"shortcut": "[Link reference text]: Link URL", "details": "Link reference (required for reference-style link)"}
+			]
+		},
+		{
+			"sectionTitle": "Images",
+			"shortcuts": [
+				{"shortcut": "![Alt text](Image URL)", "details": "Inline-style image"},
+				{"shortcut": "![Alt text][Image reference text]", "details": "Reference-style image (requires reference)"},
+				{"shortcut": "[Image reference text]: Image URL", "details": "Image reference (required for reference-style image)"}
+			]
+		},
+		{
+			"sectionTitle": "Code",
+			"shortcuts": [
+				{"shortcut": "`single back-ticks`", "details": "Inline code"},
+				{"shortcut": "```<br>fenced by triple back-ticks<br>```", "details": "Code block"},
+				{"shortcut": "```<em>[language]</em><br>fenced by triple back-ticks with language indicated<br>```", "details": "Code block with syntax highlighting"}
+			]
+		},
+		{
+			"sectionTitle": "Blockquotes",
+			"shortcuts": [
+				{"shortcut": "> Quotation text here", "details": "Blockquote"}
+			]
+		},
+		{
+			"sectionTitle": "Horizontal Rules",
+			"shortcuts": [
+				{"shortcut": "---", "details": "Horizontal rule"},
+				{"shortcut": "***", "details": "Alternate horizontal rule"},
+				{"shortcut": "___", "details": "Alternate horizontal rule"}
+			]
+		}
+	]
+}

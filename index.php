@@ -18,6 +18,7 @@ $router->map('GET','/indesign', 'indesign.php', 'indesign');
 $router->map('GET','/css-selectors', 'css-selectors.php', 'css-selectors');
 $router->map('GET','/git', 'git.php', 'git');
 $router->map('GET','/vim', 'vim.php', 'vim');
+$router->map('GET','/markdown', 'markdown.php', 'markdown');
 
 /* Match the current request */
 $match = $router->match();

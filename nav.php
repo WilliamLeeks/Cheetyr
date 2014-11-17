@@ -18,5 +18,8 @@
 		<li class="site-nav_list-item">
 			<a href="/vim" class="site-nav_link">Vim</a>
 		</li>
+		<li class="site-nav_list-item">
+			<a href="/markdown" class="site-nav_link">Markdown</a>
+		</li>
 	</ul>
 </nav>
