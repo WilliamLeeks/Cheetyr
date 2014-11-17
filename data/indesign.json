@@ -59,8 +59,7 @@
 				{"shortcut": "&#8997; <span class='light-text'>+</span> Page Down", "details": "Go to next spead"},
 				{"shortcut": "&#8679; <span class='light-text'>+</span> &#8997; <span class='light-text'>+</span> &#8984; <span class='light-text'>+</span> U", "details": "Cycle through units of measurement"},
 				{"shortcut": "&#8679; <span class='light-text'>+</span> drag guide", "details": "Snap guide to ruler increments"},
-				{"shortcut": "&#8997; <span class='light-text'>+</span> &#8984; <span class='light-text'>+</span> G", "details": "Select all guides"},
-				{"shortcut": "", "details": ""}
+				{"shortcut": "&#8997; <span class='light-text'>+</span> &#8984; <span class='light-text'>+</span> G", "details": "Select all guides"}
 			]
 		},
 		{
