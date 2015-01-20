@@ -14,7 +14,7 @@ $(".js--nav-toggle").click(function() {
 // Provide fallbacks for SVG images
 if (!Modernizr.svg) {
   $(".brand").attr("src", "img/cheetyr-logo.png");
-  $(".wl-brand").attr("src", "img/william-leeks-logo.png");
+  $(".wl-brand").attr("src", "img/william-leeks_logo.png");
 }
 
 // Initiate live filter

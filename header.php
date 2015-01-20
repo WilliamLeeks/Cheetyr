@@ -44,7 +44,8 @@
 		<?php include 'nav.php'; ?>
 		<footer>
 			<p>Follow <a href="http://twitter.com/cheetyr">@cheetyr</a></p>
-			<p>Made by <a href="http://williamleeks.com">William Leeks</a>
-			<img src="../img/william-leeks-logo.svg" alt="William Leeks logo" class="wl-brand"></p>
+			<p>Made by <a href="http://williamleeks.com">William Leeks
+				<img src="../img/william-leeks_logo.svg" alt="William Leeks logo" class="wl-brand">
+			</a></p>
 		</footer>
 	</aside>
