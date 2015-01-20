@@ -11,7 +11,7 @@
 				{"shortcut": "div, p", "details": "Selects all &lt;div&gt; and &lt;p&gt; elements"},
 				{"shortcut": "div > p", "details": "Selects all &lt;p&gt; elements with an immediate parent of &lt;div&gt;"},
 				{"shortcut": "div + p", "details": "Selects all &lt;p&gt; elements placed immediately after &lt;div&gt; elements"},
-				{"shortcut": "div~p", "details": "Selects all &lt;p&gt; elements preceded by &lt;div&gt; elements, provided they share the same parent"}
+				{"shortcut": "div ~ p", "details": "Selects all &lt;p&gt; elements preceded by &lt;div&gt; elements, provided they share the same parent"}
 			]
 		},
 		{
