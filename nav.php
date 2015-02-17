@@ -21,5 +21,8 @@
 		<li class="site-nav_list-item">
 			<a href="/markdown" class="site-nav_link">Markdown</a>
 		</li>
+		<li class="site-nav_list-item">
+			<a href="/chrome" class="site-nav_link">Google Chrome</a>
+		</li>
 	</ul>
 </nav>

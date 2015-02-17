@@ -19,6 +19,7 @@ $router->map('GET','/css-selectors', 'css-selectors.php', 'css-selectors');
 $router->map('GET','/git', 'git.php', 'git');
 $router->map('GET','/vim', 'vim.php', 'vim');
 $router->map('GET','/markdown', 'markdown.php', 'markdown');
+$router->map('GET','/chrome', 'chrome.php', 'chrome');
 
 /* Match the current request */
 $match = $router->match();

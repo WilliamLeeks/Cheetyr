@@ -1,0 +1,107 @@
+{
+	"pageTitle": "Google Chrome",
+	"sections": [
+		{
+			"sectionTitle": "Tabs and Windows",
+			"shortcuts": [
+				{"shortcut": "&#8984; <span class='light-text'>+</span> N", "details": "Open a new window"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> T", "details": "Opens a new tab"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8679; <span class='light-text'>+</span> N", "details": "Opens a new window in incognito mode"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> O", "details": "Opens a file from your computer"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> click link", "details": "Opens a link in a new tab in the background"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8679; <span class='light-text'>+</span> click link", "details": "Opens a link in a new tab and switches to it"},
+				{"shortcut": "&#8679; <span class='light-text'>+</span> click link", "details": "Opens a link in a new window"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8679; <span class='light-text'>+</span> T", "details": "Reopens the last tab that you closed"},
+				{"shortcut": "Drag a tab out of the tab strip", "details": "Opens the tab in a new window"},
+				{"shortcut": "Drag a tab out of the tab strip and into an existing window", "details": "Opens the tab in the existing window"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8997; <span class='light-text'>+</span> Right Arrow", "details": "Switch to the next tab"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8997; <span class='light-text'>+</span> Left Arrow", "details": "Switch to the previous tab"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> W", "details": "Closes the current tab or pop-up"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8679; <span class='light-text'>+</span> W", "details": "Closes the current window"},
+				{"shortcut": "Click and hold either the Back or Forward arrow in the browser toolbar", "details": "Displays your browsing history in the tab"},
+				{"shortcut": "Delete <span class='light-text'>or</span> &#8984; <span class='light-text'>+</span> [", "details": "Goes to the previous page in your browsing history for the tab"},
+				{"shortcut": "&#8679; <span class='light-text'>+</span> Delete <span class='light-text'>or</span> &#8984; <span class='light-text'>+</span> [", "details": "Goes to the next page in your browsing history for the tab"},
+				{"shortcut": "&#8679; <span class='light-text'>+</span> click + button at top of window", "details": "Maximises the window"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> M", "details": "Minimises the window"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> H", "details": "Hides Google Chrome"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8997; <span class='light-text'>+</span> H", "details": "Hides all other windows"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> Q", "details": "Quits Google Chrome"}
+			]
+		},
+		{
+			"sectionTitle": "Google Chrome Features",
+			"shortcuts": [
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8679; <span class='light-text'>+</span> B", "details": "Toggles the bookmarks bar on and off"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8997; <span class='light-text'>+</span> H", "details": "Opens the bookmark manager"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> ,", "details": "Opens the Settings page"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> Y", "details": "Opens the History page"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8679; <span class='light-text'>+</span> J", "details": "Opens the Downloads page"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8679; <span class='light-text'>+</span> Delete", "details": "Opens the Clear Browsing Data dialogue"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8679; <span class='light-text'>+</span> M", "details": "Switch between multiple users"}
+			]
+		},
+		{
+			"sectionTitle": "Address Bar",
+			"shortcuts": [
+				{"shortcut": "Type a search term, then press Enter", "details": "Performs a search using your default search engine"},
+				{"shortcut": "Type a search engine keyword, press Space, type a search term and press Enter", "details": "Performs a search using the search engine associated with the keyword"},
+				{"shortcut": "Begin typing a search engine URL, press Tab when prompted, type a search term and press Enter", "details": "Performs a search using the search engine associated with the URL"},
+				{"shortcut": "Type a URL and press &#8984; <span class='light-text'>+</span> Enter", "details": "Opens the URL in a new background tab"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> L", "details": "Highlights the URL"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8997; <span class='light-text'>+</span> F", "details": "Places a '?' in the address bar. Type a search term after the question mark to perform a search using your default search engine"},
+				{"shortcut": "&#8997; <span class='light-text'>+</span> Left Arrow", "details": "Moves your cursor to the preceding key term in the address bar"},
+				{"shortcut": "&#8997; <span class='light-text'>+</span> Right Arrow", "details": "Moves your cursor to the next key term in the address bar"},
+				{"shortcut": "&#8679; <span class='light-text'>+</span> &#8997; <span class='light-text'>+</span> Left Arrow", "details": "Highlights the preceding key term in the address bar"},
+				{"shortcut": "&#8679; <span class='light-text'>+</span> &#8997; <span class='light-text'>+</span> Right Arrow", "details": "Highlights the next key term in the address bar"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> Delete", "details": "Deletes the key term that precedes your cursor in the address bar"},
+				{"shortcut": "Select an entry in the address bar drop-down menu with your keyboard arrows, then press &#8679; <span class='light-text'>+</span> Fn <span class='light-text'>+</span> Delete", "details": "Deletes the entry from your browsing history, if possible"},
+				{"shortcut": "Press Page Up or Page Down in the addess bar menu", "details": "Selects the previous or next entry in the menu"}
+			]
+		},
+		{
+			"sectionTitle": "Web Page",
+			"shortcuts": [
+				{"shortcut": "&#8984; <span class='light-text'>+</span> P", "details": "Prints your current page"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8679; <span class='light-text'>+</span> P", "details": "Opens the Page Setup dialogue"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> S", "details": "Saves your current page"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8679; <span class='light-text'>+</span> I", "details": "Emails your current page"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> R", "details": "Reloads your current page"},
+				{"shortcut": "Esc", "details": "Stops loading of your current page"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> F", "details": "Opens the find bar"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> G", "details": "Finds the next match for your input in the find bar"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8679; <span class='light-text'>+</span> G <span class='light-text'>or</span> &#8679; <span class='light-text'>+</span> Enter", "details": "Finds the previous match for your input in the find bar"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> E", "details": "Uses selection for find"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> J", "details": "Jumps to selection"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8997; <span class='light-text'>+</span> I", "details": "Opens Developer Tools"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8997; <span class='light-text'>+</span> J", "details": "Opens the JavaScript Console"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8997; <span class='light-text'>+</span> U", "details": "Opens the source of your current page"},
+				{"shortcut": "Press &#8997; and click a link", "details": "Downloads the target of the link"},
+				{"shortcut": "Drag a link to the bookmarks bar", "details": "Saves the link as a bookmark"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> D", "details": "Saves your current web page as a bookmark"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8679; <span class='light-text'>+</span> D", "details": "Saves all open tabs as bookmarks in a new folder"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8679; <span class='light-text'>+</span> F", "details": "Opens your page in full-screen mode"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> +", "details": "Enlarges everything on the page"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> -", "details": "Makes everything on the page smaller"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> 0", "details": "Returns everything on the page to normal size"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8679; <span class='light-text'>+</span> H", "details": "Opens your home page in your current tab"},
+				{"shortcut": "Space", "details": "Scrolls down the web page"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8997; <span class='light-text'>+</span> F", "details": "Searches the web"}
+			]
+		},
+		{
+			"sectionTitle": "Text",
+			"shortcuts": [
+				{"shortcut": "&#8984; <span class='light-text'>+</span> C", "details": "Copies highlighted content to the clipboard"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8997; <span class='light-text'>+</span> C", "details": "Copies the URL of the page that you're viewing to the clipboard"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> V", "details": "Pastes content from the clipboard"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8679; <span class='light-text'>+</span> &#8997; <span class='light-text'>+</span> V", "details": "Continue a rebase after resolving conflicts"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> X <span class='light-text'>or</span> &#8679; <span class='light-text'>+</span> Delete", "details": "Deletes the highlighted content and copies it to the clipboard"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> Z", "details": "Reverts your last action"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8679; <span class='light-text'>+</span> Z", "details": "Repeats your last action"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> X", "details": "Deletes highlighted content and saves it to your clipboard (cut)"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> A", "details": "Selects all the text on your current page"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8679; <span class='light-text'>+</span> :", "details": "Opens the Spelling and Grammar dialogue"}
+			]
+		}
+	]
+}
