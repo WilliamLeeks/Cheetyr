@@ -13,7 +13,7 @@ $yellow: #F9B233;
 --------------------------------------------*/
 
 /* Logo */
-@keyframes enter-up {
+@keyframes enter-left {
 	0% {
 		opacity: 0;
 		transform: translateX(-40px);
@@ -98,15 +98,15 @@ $yellow: #F9B233;
 	-webkit-font-smoothing: antialised;
 }
 body {
-	background: white;
 	color: #555;
 	font: 62.5%/1.5 sans-serif;
 }
 header {
-	position: fixed;
-	left: 50px;
-	top: 50px;
-	animation: enter-up 0.4s;
+	padding: 40px 0 20px 40px;
+
+	.brand--animated {
+		animation: enter-left 0.4s;
+	}
 }
 .js--nav-toggle {
 	position: relative;
@@ -147,28 +147,41 @@ header {
 	}
 }
 .sidebar {
-	width: 200px;
+	width: 300px;
 	position: fixed;
-	top: 140px;
+	top: 0;
+	bottom: 0;
 	left: 0;
-	padding: 0 0 0 50px;
+	background: #444;
+	color: white;
 
 	nav {
 		font-size: 1.6em;
-	}
-		nav a {
+
+		a {
 			display: block;
+			color: white;
+			padding: 5px 40px;
+
+			&:hover {
+				text-decoration: none;
+				background: #333;
+			}
 		}
+	}
 	footer {
+		padding: 0 40px;
 		font-size: 1.2em;
+
+		a {
+			color: white;
+		}
 	}
 }
 main {
-	margin: 20px 0 20px 250px;
-	padding: 30px 50px;
+	margin: 40px 0 50px 350px;
 	font-size: 1.6em;
-	width: 750px;
-	border: 10px solid $yellow;
+	width: 700px;
 	height: auto;
 }
 
@@ -249,37 +262,8 @@ p {
 	}
 }
 
-/* Platform Toggle */
-.platform-toggles {
-	position: fixed;
-	left: 780px;
-	top: 60px;
-	display: inline-block;
-	padding: 0.3em;
-	background: white;
-	border: 3px solid $yellow;
-	border-radius: 2em;
-}
-.js--platform-toggle {
-	background: none;
-	border: 0;
-	padding: 0.5em 1em;
-	border-radius: 2em;
-	color: #555;
-}
-.js--platform-toggle--active {
-	background: $yellow;
-	color: white;
-}
-
 /*** IMAGES
 --------------------------------------------*/
-
-.wl-brand {
-	display: block;
-	width: 40px;
-	margin: 10px 0 0 0;
-}
 
 /*** LINKS
 --------------------------------------------*/
@@ -307,10 +291,19 @@ footer a {
 --------------------------------------------*/
 
 #search-sheet {
-	margin: 0 0 1.5em 0;
+	margin: 0 0 30px 0;
 	padding: 0.3em 1em;
 	border: 3px solid $yellow;
 	border-radius: 30px;
+
+	&:focus {
+		position: relative;
+		top: -2px;
+		left: -2px;
+		border-width: 5px;
+		outline: 0;
+		margin-bottom: 26px;
+	}
 }
 
 /*** SELECTION HIGHLIGHTS
@@ -331,18 +324,15 @@ footer a {
 /*** MEDIA QUERIES
 --------------------------------------------*/
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1100px) {
 
 	main {
-		margin: 70px auto 20px;
-		width: 95%;
+		margin: 100px auto 20px;
+		width: 92%;
 	}
 	header {
-		top: 0;
-		left: 0;
 		width: 100%;
-		padding: 15px 20px 10px;
-		background: white;
+		padding: 20px 0 15px 25px;
 	}
 	.brand {
 		width: 100px;
@@ -350,15 +340,26 @@ footer a {
 	.js--nav-toggle {
 		display: block;
 		float: right;
+		margin: 25px 25px 0 0;
 	}
 	.sidebar {
 		position: fixed;
-		top: 60px;
-		bottom: 0;
+		top: 0;
+		bottom: auto;
 		width: 100%;
-		background: #eee;
-		padding: 20px;
-		display: none;
+
+		nav,
+		footer {
+			display: none;
+		}
+		nav {
+			a {
+				padding: 10px 25px;
+			}
+		}
+		footer {
+			padding: 10px 25px;
+		}
 	}
 	.site-nav_link {
 		font-size: 120%;
@@ -373,9 +374,6 @@ footer a {
 
 @media only screen and (max-width: 700px) {
 
-	main {
-		padding: 30px;
-	}
 	.command-list {
 		p {
 			float: none;
@@ -407,8 +405,6 @@ footer a {
 		display: none;
 	}
 	main {
-		border: 0;
-		padding: 0;
 		width: 90%;
 		margin: 0 auto;
 	}

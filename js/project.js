@@ -1,6 +1,7 @@
 // Toggle nav menu
 $(".js--nav-toggle").click(function() {
-	$(".sidebar").toggle();
+	$(".sidebar nav").toggle();
+	$(".sidebar footer").toggle();
 	if ( $(this).hasClass("js--nav-toggle--to-x") ) {
 		$(this).removeClass("js--nav-toggle--to-x");
 		$(this).addClass("js--nav-toggle--from-x");
@@ -20,22 +21,4 @@ if (!Modernizr.svg) {
 // Initiate live filter
 $(function() {
     $('#search-sheet').fastLiveFilter('.command-list');
-});
-
-
-// Toggle platform shortcuts
-$('.js--platform-toggle').click(function() {
-	// Make this toggle active
-	$('.js--platform-toggle').removeClass('js--platform-toggle--active');
-	$(this).addClass('js--platform-toggle--active');
-
-	// Update shortcuts
-	if( $(this).hasClass('js--setPlatformWindows') ) {
-		$("body *").replaceText( "⌘", "Ctrl" );
-		$("body *").replaceText( "⌥", "Alt" );
-	}
-	else {
-		$("body *").replaceText( "Ctrl", "⌘" );
-		$("body *").replaceText( "Alt", "⌥" );
-	}
 });
