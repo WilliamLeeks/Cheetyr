@@ -1,0 +1,117 @@
+{
+	"pageTitle": "Sketch",
+	"sections": [
+		{
+			"sectionTitle": "Tools",
+			"shortcuts": [
+				{"shortcut": "A", "details": "New Artboard"},
+				{"shortcut": "S", "details": "Slice"},
+				{"shortcut": "R", "details": "Rectangle"},
+				{"shortcut": "U", "details": "Rounded Rectangle"},
+				{"shortcut": "O", "details": "Oval"},
+				{"shortcut": "L", "details": "Line"},
+				{"shortcut": "V", "details": "Vector Point"},
+				{"shortcut": "P", "details": "Pencil"},
+				{"shortcut": "T", "details": "Text"}
+			]
+		},
+		{
+			"sectionTitle": "Typography",
+			"shortcuts": [
+				{"shortcut": "&#8984; <span class='light-text'>+</span> B", "details": "Bold"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> I", "details": "Italic"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> U", "details": "Underline"},
+				{"shortcut": "&#8997; <span class='light-text'>+</span> &#8984; <span class='light-text'>+</span> +", "details": "Increase font size"},
+				{"shortcut": "&#8997; <span class='light-text'>+</span> &#8984; <span class='light-text'>+</span> -", "details": "Decrease font size"},
+				{"shortcut": "&#8997; <span class='light-text'>+</span> Ctrl <span class='light-text'>+</span> L", "details": "Increase character spacing"},
+				{"shortcut": "&#8997; <span class='light-text'>+</span> Ctrl <span class='light-text'>+</span> T", "details": "Decrease character spacing"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> T", "details": "Change font"},
+				{"shortcut": "&#8679; <span class='light-text'>+</span> &#8984; <span class='light-text'>+</span> O", "details": "Convert text to outlines"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8679; <span class='light-text'>+</span> {", "details": "Align left"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8679; <span class='light-text'>+</span> |", "details": "Align centre"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8679; <span class='light-text'>+</span> }", "details": "Align right"},
+				{"shortcut": "Ctrl <span class='light-text'>+</span> &#8984; <span class='light-text'>+</span> Space", "details": "Special characters"}
+			]
+		},
+		{
+			"sectionTitle": "View",
+			"shortcuts": [
+				{"shortcut": "&#8984; <span class='light-text'>+</span> +", "details": "Zoom in"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> -", "details": "Zoom out"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> 0", "details": "Actual size"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> 1", "details": "Centre canvas"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> 2", "details": "Zoom selection"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> 3", "details": "Centre selection"},
+				{"shortcut": "§", "details": "Temporary zoom to actual size"},
+				{"shortcut": "&#8997; <span class='light-text'>+</span> Tab", "details": "Focus on first input field"},
+				{"shortcut": "Ctrl <span class='light-text'>+</span> R", "details": "Toggle rulers"},
+				{"shortcut": "Ctrl <span class='light-text'>+</span> G", "details": "Toggle grid"},
+				{"shortcut": "Ctrl <span class='light-text'>+</span> L", "details": "Toggle layer guides"},
+				{"shortcut": "Ctrl <span class='light-text'>+</span> P", "details": "Toggle pixels"},
+				{"shortcut": "Ctrl <span class='light-text'>+</span> H", "details": "Toggle selection handles"},
+				{"shortcut": "Ctrl <span class='light-text'>+</span> X", "details": "Toggle pixel grid"}
+			]
+		},
+		{
+			"sectionTitle": "Window",
+			"shortcuts": [
+				{"shortcut": "&#8984; <span class='light-text'>+</span> ~", "details": "Toggle between documents"},
+				{"shortcut": "&#8997; <span class='light-text'>+</span> &#8984; <span class='light-text'>+</span> 1", "details": "Toggle layers list"},
+				{"shortcut": "&#8997; <span class='light-text'>+</span> &#8984; <span class='light-text'>+</span> 2", "details": "Toggle inspector"},
+				{"shortcut": "&#8997; <span class='light-text'>+</span> &#8984; <span class='light-text'>+</span> 3", "details": "Toggle layers, inspector"},
+				{"shortcut": "&#8997; <span class='light-text'>+</span> &#8984; <span class='light-text'>+</span> T", "details": "Toggle toolbar"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> .", "details": "Presentation mode"},
+				{"shortcut": "Ctrl <span class='light-text'>+</span> &#8984; <span class='light-text'>+</span> F", "details": "Enter fullscreen"}
+			]
+		},
+		{
+			"sectionTitle": "Shapes",
+			"shortcuts": [
+				{"shortcut": "&#8984; <span class='light-text'>+</span> &#8997;", "details": "Keep current selection"},
+				{"shortcut": "Ctrl <span class='light-text'>+</span> &#8984; <span class='light-text'>+</span> M", "details": "Use as mask span"},
+				{"shortcut": "&#8997; <span class='light-text'>+</span> &#8984; <span class='light-text'>+</span> U", "details": "Union"},
+				{"shortcut": "&#8997; <span class='light-text'>+</span> &#8984; <span class='light-text'>+</span> S", "details": "Subtract"},
+				{"shortcut": "&#8997; <span class='light-text'>+</span> &#8984; <span class='light-text'>+</span> I", "details": "Intersect"},
+				{"shortcut": "&#8997; <span class='light-text'>+</span> &#8984; <span class='light-text'>+</span> X", "details": "Difference"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> Arrows", "details": "Change object size"},
+				{"shortcut": "&#8679; <span class='light-text'>+</span> &#8984; <span class='light-text'>+</span> Arrows", "details": "Change units by 10"},
+				{"shortcut": "1, 2, 3, 4", "details": "Change vector point style"}
+			]
+		},
+		{
+			"sectionTitle": "Layers",
+			"shortcuts": [
+				{"shortcut": "&#8997;", "details": "Show distance to other layers"},
+				{"shortcut": "&#8997; <span class='light-text'>+</span> &#8984;", "details": "Show distance to other layers inside group"},
+				{"shortcut": "&#8997; <span class='light-text'>+</span> Drag", "details": "Duplicate (repeat with &#8984; <span class='light-text'>+</span> D)"},
+				{"shortcut": "&#8997; <span class='light-text'>+</span> &#8984; <span class='light-text'>+</span> C", "details": "Copy style"},
+				{"shortcut": "&#8997; <span class='light-text'>+</span> &#8984; <span class='light-text'>+</span> V", "details": "Paste style"},
+				{"shortcut": "Ctrl <span class='light-text'>+</span> C", "details": "Colour picker"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> T", "details": "Transform"},
+				{"shortcut": "&#8679; <span class='light-text'>+</span> &#8984; <span class='light-text'>+</span> R", "details": "Rotate"},
+				{"shortcut": "F", "details": "Toggle Fill"},
+				{"shortcut": "B", "details": "Toggle Border"}
+			]
+		},
+		{
+			"sectionTitle": "Layers, Groups and Artboards",
+			"shortcuts": [
+				{"shortcut": "&#8997; <span class='light-text'>+</span> &#8984; <span class='light-text'>+</span> &uarr;", "details": "Bring forward"},
+				{"shortcut": "Ctrl <span class='light-text'>+</span> &#8997; <span class='light-text'>+</span> &#8984; <span class='light-text'>+</span> &uarr;", "details": "Bring to front"},
+				{"shortcut": "&#8997; <span class='light-text'>+</span> &#8984; <span class='light-text'>+</span> &darr;", "details": "Send backward"},
+				{"shortcut": "Ctrl <span class='light-text'>+</span> &#8997; <span class='light-text'>+</span> &#8984; <span class='light-text'>+</span> &darr;", "details": "Send to back"},
+				{"shortcut": "&#8679; <span class='light-text'>+</span> &#8984; <span class='light-text'>+</span> H", "details": "Hide"},
+				{"shortcut": "&#8679; <span class='light-text'>+</span> &#8984; <span class='light-text'>+</span> L", "details": "Lock"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> R", "details": "Rename"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> G", "details": "Group layers"},
+				{"shortcut": "&#8679; <span class='light-text'>+</span> &#8984; <span class='light-text'>+</span> G", "details": "Ungroup layers"},
+				{"shortcut": "&#8679; <span class='light-text'>+</span> Tab", "details": "Select layer above"},
+				{"shortcut": "Tab", "details": "Select layer below"},
+				{"shortcut": "Esc", "details": "Select parent artboard"},
+				{"shortcut": "&#8984; <span class='light-text'>+</span> F", "details": "Find layer by name"},
+				{"shortcut": "Fn <span class='light-text'>+</span> &uarr;", "details": "Select page above"},
+				{"shortcut": "Fn <span class='light-text'>+</span> &darr;", "details": "Select page below"}
+			]
+		}
+	]
+}
