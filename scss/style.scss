@@ -184,6 +184,7 @@ main {
 	font-size: 1.6em;
 	width: 700px;
 	height: auto;
+	position: relative;
 }
 
 /*** TEXT & TYPOGRAPHY
@@ -193,9 +194,9 @@ h2,
 h3,
 h4,
 h5 {
-	font-weight: bold;
-	color: #333;
-	font-family: "anonymous-pro", sans-serif;
+	font-weight: 700;
+	color: #454;
+	font-family: "futura-pt", sans-serif;
 }
 h1 {
 	margin: 0 0 0.5em 0;
@@ -203,11 +204,25 @@ h1 {
 h2 {
 	margin: 0 0 0.2em 0;
 }
+h3 {
+	margin: 0 0 0.5em;
+}
 p {
 	margin: 0 0 1em 0;
 }
+ul {
+	margin: 0 0 1em 1.2em;
+
+	li 	{
+		margin: 0 0 0.3em;
+	}
+}
+ol {
+	margin: 0 0 0 1.3em;
+}
 .command-list {
 	margin-bottom: 2em;
+	margin-left: 0;
 	border-bottom: 1px solid #ddd;
 	list-style: none;
 
@@ -253,6 +268,8 @@ p {
 }
 .site-nav_list-item {
 	margin: 0 0 5px 0;
+	font-family: "futura-pt", sans-serif;
+	font-weight: 700;
 }
 .site-nav_link {
 	color: #333;
@@ -261,6 +278,29 @@ p {
 
 	&:hover {
 		text-decoration: underline;
+	}
+}
+
+/* Sheet Index */
+
+.sheet-index {
+	border: 2px solid $yellow;
+	border-radius: 4px;
+	padding: 1em;
+	width: 280px;
+	position: fixed;
+	top: 20px;
+	left: 1080px;
+}
+
+@media only screen and (max-width: 1380px) {
+	.sheet-index {
+		position: static;
+		width: auto;
+		margin: 0 0 1.5em;
+		font-size: 0.9em;
+		border: none;
+		padding: 0;
 	}
 }
 
@@ -349,6 +389,7 @@ footer a {
 		top: 0;
 		bottom: auto;
 		width: 100%;
+		z-index: 2;
 
 		nav,
 		footer {
