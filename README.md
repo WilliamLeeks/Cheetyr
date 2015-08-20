@@ -1,6 +1,6 @@
 # Cheetyr
 
-A handy collection of cheatsheets for designers and developers.
+A handy collection of cheat sheets for designers and developers.
 
 ## Contribute / Feedback
 

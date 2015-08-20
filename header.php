@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 
 <title><?php echo $title; ?></title>
-<meta name="description" content="A handy collection of cheatsheets for designers and developers.">
+<meta name="description" content="A handy collection of cheat sheets for designers and developers.">
 
 <!-- Mobile viewport optimized: h5bp.com/viewport -->
 <meta name="viewport" content="width=device-width, maximum-scale=1.0">

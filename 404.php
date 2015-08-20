@@ -1,5 +1,5 @@
 <?php
-	$title = "Cheetyr – Cheatsheets for Designers &amp; Developers";
+	$title = "Cheetyr – Cheat Sheets for Designers &amp; Developers";
 	include 'header.php';
 ?>
 	<main>
