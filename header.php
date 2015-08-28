@@ -37,6 +37,7 @@
 		</header>
 		<?php include 'nav.php'; ?>
 		<footer>
+			<p><a href="https://github.com/WilliamLeeks/Cheetyr">Cheetyr on GitHub</a></p>
 			<p>Follow <a href="http://twitter.com/cheetyr">@cheetyr</a></p>
 			<p>Made by <a href="http://williamleeks.com">William Leeks</a></p>
 		</footer>
