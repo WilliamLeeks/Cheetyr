@@ -9,7 +9,7 @@
 				{"shortcut": "*", "details": "Selects all elements"},
 				{"shortcut": "div", "details": "Selects all &lt;div&gt; elements"},
 				{"shortcut": "div, p", "details": "Selects all &lt;div&gt; and &lt;p&gt; elements"},
-				{"shortcut": "div > p", "details": "Selects all &lt;p&gt; elements that are a child (i.e. a direct descendant) of a &lt;div&gt; element"},
+				{"shortcut": "div > p", "details": "Selects all &lt;p&gt; elements that are a descendant of a &lt;div&gt; element"},
 				{"shortcut": "div + p", "details": "Selects all &lt;p&gt; elements that are the next sibling of (i.e. placed directly after) &lt;div&gt; elements"},
 				{"shortcut": "div ~ p", "details": "Selects all &lt;p&gt; elements that follow, and are siblings of, &lt;div&gt; elements"}
 			]
