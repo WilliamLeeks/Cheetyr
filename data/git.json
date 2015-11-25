@@ -24,7 +24,7 @@
 			]
 		},
 		{
-			"sectionTitle": "Braches &amp; Tags",
+			"sectionTitle": "Branches &amp; Tags",
 			"shortcuts": [
 				{"shortcut": "$ git branch", "details": "List local branches"},
 				{"shortcut": "$ git branch -a", "details": "List both local and remote branches"},
