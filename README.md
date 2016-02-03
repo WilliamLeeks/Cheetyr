@@ -12,7 +12,7 @@ Get in touch: (http://williamleeks.com/contact.php)
 
 ## Copyright / License
 
-Copyright 2014 William Leeks
+Copyright 2014-16 William Leeks
 
 CC BY-NC-SA License (http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
