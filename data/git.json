@@ -82,6 +82,14 @@
 				{"shortcut": "$ git reset <em>[commit]</em>", "details": "Reset HEAD to a previous commit and preserve all changes as unstaged changes"},
 				{"shortcut": "$ git reset --keep <em>[commit]</em>", "details": "Reset HEAD to a previous commit and preserve uncommitted local changes"}
 			]
+		},
+		{
+			"sectionTitle": "Graphs",
+			"shortcuts": [
+				{"shortcut": "$ gitk", "details": "View-only GUI of repo"},
+				{"shortcut": "$ git log --oneline --graph --decorate", "details": "Color text of repo"}
+			]
 		}
+
 	]
 }
