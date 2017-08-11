@@ -23,6 +23,7 @@
 				{"shortcut": "$ git commit --amend", "details": "Change the last commit"},
 				{"shortcut": "$ git log", "details": "Show all commits, starting with most recent"},
 				{"shortcut": "$ git log -p <em>[file]</em>", "details": "Show changes over time to <em>[file]</em>"},
+				{"shortcut": "$ git show", "details": "Show commit msg and diff, default last one"},
 				{"shortcut": "$ git blame <em>[file]</em>", "details": "Show changes for <em>[file]</em> with time and author"}
 			]
 		},
